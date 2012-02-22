@@ -1,0 +1,279 @@
+TCirculation
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app/Contents/Info.plist" platform/main.plist
+cProcessPCH++ /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-dkbtkqpfhxfxcegzgahruztyiqjo/main.pch.pth platform/main.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-fgbdzsjpsthethgjxghtafkxkyaz/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-fiyllaoovqnmyfclhhzevanzdpmi/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/AppDelegate.o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/../platform/AppDelegate.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/main.o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/../platform/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/poOpenGLView.o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/../platform/poOpenGLView.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/CirculationApp.o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/CirculationApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Developer/SDKs/MacOSX10.7.sdk
+c000000004E7AD70B00000000000000EE
+t1316673291
+s238
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/../platform/AppDelegate.mm
+c000000004F4556AA0000000000001E1D
+t1329944234
+s7709
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/../platform/en.strings
+c000000004F4556AA000000000000002D
+t1329944234
+s45
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/../platform/main.m
+c000000004F4556AA0000000000000077
+t1329944234
+s119
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/../platform/main.xib
+c000000004F4556AA0000000000006176
+t1329944234
+s24950
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/../platform/poOpenGLView.mm
+c000000004F4556AA00000000000012F4
+t1329944234
+s4852
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/AppConfig.cpp
+c000000004F4556AA0000000000000190
+t1329944234
+s400
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/CirculationApp.cpp
+c000000004F455D8E00000000000003D3
+t1329945998
+s979
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/AppConfig.o
+t2
+s0
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/Circulation.LinkFileList
+c000000004F455D8F000000000000038E
+t1329945999
+s910
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/CirculationApp.o
+t2
+s0
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/poOpenGLView.o
+t2
+s0
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app
+t2
+s0
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app/Contents/Info.plist
+t2
+s0
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app/Contents/MacOS/Circulation
+t2
+s0
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app/Contents/Resources/en.strings
+t2
+s0
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app/Contents/Resources/main.nib
+t2
+s0
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app/Contents/Resources/main.pch
+t2
+s0
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/platform/main.pch
+c000000004F4556AA0000000000000000
+t1329944234
+s0
+
+N/var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-dkbtkqpfhxfxcegzgahruztyiqjo/main.pch.pth
+t2
+s0
+
+N/var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-fgbdzsjpsthethgjxghtafkxkyaz/main.pch.pth
+t2
+s0
+
+N/var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-fiyllaoovqnmyfclhhzevanzdpmi/main.pch.pth
+t2
+s0
+
+Nplatform/main.plist
+c000000004F4556AA00000000000003E2
+t1329944234
+s994
+
+CBuild AST from "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/../platform/AppDelegate.mm"
+r0
+
+CBuild AST from "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/../platform/main.m"
+r0
+
+CBuild AST from "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/../platform/poOpenGLView.mm"
+r0
+
+CBuild AST from "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/AppConfig.cpp"
+r0
+
+CBuild AST from "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/CirculationApp.cpp"
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies9cc4fc0e95f5b441^d177430f95f5b441^---0#1#0#--18"Check dependencies36"1DFD10C0-0297-4C18-AA28-7B32AA1745E5-
+
+CCompileC build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/AppConfig.o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/AppConfig.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/AppDelegate.o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/../platform/AppDelegate.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s351638801.155843
+e351638810.227481
+r1
+xCompileC
+xbuild/Circulation.build/Debug/Circulation.build/Objects-normal/i386/AppDelegate.o
+x/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/../platform/AppDelegate.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"Compile /Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/../platform/AppDelegate.mm460b281195f5b441^693b3a1a95f5b441^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/johanndiedrick/Documents/Tisch/Courses/Spatial%20Media/Assignments/Circulation/Code/Circulation/Circulation/../platform/AppDelegate.mm0000000000000000^3410"CompileC build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/AppDelegate.o Circulation/../platform/AppDelegate.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-generated-files.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-own-target-headers.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-all-target-headers.hmap" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-project-headers.hmap" -iquote/pocode/libraries/pocode "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/include" -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/DerivedSources/i386" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/DerivedSources" "-F/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug" -include /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-dkbtkqpfhxfxcegzgahruztyiqjo/main.pch -MMD -MT dependencies -MF "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/AppDelegate.d" -c "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/../platform/AppDelegate.mm" -o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/AppDelegate.o"36"8F4B6A50-0C9D-46D4-BE20-4D1E16899C22-
+
+CCompileC build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/CirculationApp.o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/CirculationApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s351638810.228818
+e351638813.460002
+r0
+xCompileC
+xbuild/Circulation.build/Debug/Circulation.build/Objects-normal/i386/CirculationApp.o
+x/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/CirculationApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/CirculationApp.cpp:27:7: error: variable has incomplete type 'void' [3]
+o         void drawStrokedPolygon(poPoint(100,100), poPoint(100, 300), poPoint(200,200));
+o              ^
+o/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/CirculationApp.cpp:27:7: error: variable has incomplete type 'void' [3]
+o2 errors generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Compile /Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/CirculationApp.cppc4b53a1a95f5b441^cd91751d95f5b441^-495"/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/CirculationApp.cpp:27:7: error: variable has incomplete type 'void' [3]         void drawStrokedPolygon(poPoint(100,100), poPoint(100, 300), poPoint(200,200));              ^/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/CirculationApp.cpp:27:7: error: variable has incomplete type 'void' [3]2 errors generated.2(21%IDEActivityLogMessage2@35"Variable has incomplete type 'void'-351638813#0#185#-2#-23%DVTTextDocumentLocation3@149"file://localhost/Users/johanndiedrick/Documents/Tisch/Courses/Spatial%20Media/Assignments/Circulation/Code/Circulation/Circulation/CirculationApp.cpp0000000000000000^26#6#26#6#18446744073709551615#0#14"Semantic Issue--2@35"Variable has incomplete type 'void'-351638813#290#185#-2#-3@149"file://localhost/Users/johanndiedrick/Documents/Tisch/Courses/Spatial%20Media/Assignments/Circulation/Code/Circulation/Circulation/CirculationApp.cpp0000000000000000^26#6#26#6#18446744073709551615#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@149"file://localhost/Users/johanndiedrick/Documents/Tisch/Courses/Spatial%20Media/Assignments/Circulation/Code/Circulation/Circulation/CirculationApp.cpp0000000000000000^3207"CompileC build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/CirculationApp.o Circulation/CirculationApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-generated-files.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-own-target-headers.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-all-target-headers.hmap" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-project-headers.hmap" -iquote/pocode/libraries/pocode "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/include" -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/DerivedSources/i386" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/DerivedSources" "-F/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug" -include /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-fiyllaoovqnmyfclhhzevanzdpmi/main.pch -MMD -MT dependencies -MF "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/CirculationApp.d" -c "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/CirculationApp.cpp" -o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/CirculationApp.o"36"30B878A0-DE3F-443E-8255-804101DAAF95-
+
+CCompileC build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/main.o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/../platform/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s351638801.233230
+e351638806.255342
+r1
+xCompileC
+xbuild/Circulation.build/Debug/Circulation.build/Objects-normal/i386/main.o
+x/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/../platform/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Compile /Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/../platform/main.m66d93b1195f5b441^b56c411695f5b441^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Users/johanndiedrick/Documents/Tisch/Courses/Spatial%20Media/Assignments/Circulation/Code/Circulation/Circulation/../platform/main.m0000000000000000^3309"CompileC build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/main.o Circulation/../platform/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-generated-files.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-own-target-headers.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-all-target-headers.hmap" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-project-headers.hmap" -iquote/pocode/libraries/pocode "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/include" -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/DerivedSources/i386" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/DerivedSources" "-F/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug" -include /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-fgbdzsjpsthethgjxghtafkxkyaz/main.pch -MMD -MT dependencies -MF "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/main.d" -c "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/../platform/main.m" -o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/main.o"36"AFB6C649-0CAE-4125-A306-9BAFB29DEE1A-
+
+CCompileC build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/poOpenGLView.o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/../platform/poOpenGLView.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s351638806.257779
+e351638811.095969
+r1
+xCompileC
+xbuild/Circulation.build/Debug/Circulation.build/Objects-normal/i386/poOpenGLView.o
+x/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/../platform/poOpenGLView.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection148"Compile /Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/../platform/poOpenGLView.mm0420421695f5b441^b490181b95f5b441^---0#0#0#-19%DVTDocumentLocation2@158"file://localhost/Users/johanndiedrick/Documents/Tisch/Courses/Spatial%20Media/Assignments/Circulation/Code/Circulation/Circulation/../platform/poOpenGLView.mm0000000000000000^3415"CompileC build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/poOpenGLView.o Circulation/../platform/poOpenGLView.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-generated-files.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-own-target-headers.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-all-target-headers.hmap" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-project-headers.hmap" -iquote/pocode/libraries/pocode "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/include" -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/DerivedSources/i386" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/DerivedSources" "-F/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug" -include /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-dkbtkqpfhxfxcegzgahruztyiqjo/main.pch -MMD -MT dependencies -MF "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/poOpenGLView.d" -c "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/../platform/poOpenGLView.mm" -o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/poOpenGLView.o"36"BA4CFC69-63C0-4A22-8E70-E5F7CD450185-
+
+CCompileXIB "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/../platform/main.xib"
+r0
+
+CCopyStringsFile "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app/Contents/Resources/en.strings" Circulation/../platform/en.strings
+r0
+
+CCpResource platform/main.pch build/Debug/Circulation.app/Contents/Resources/main.pch
+r0
+
+CLd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app/Contents/MacOS/Circulation" normal i386
+r0
+
+CProcessInfoPlistFile "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app/Contents/Info.plist" platform/main.plist
+s351638799.382368
+e351638799.424365
+r1
+xProcessInfoPlistFile
+x/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app/Contents/Info.plist
+xplatform/main.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection27"Process platform/main.plistf7776a0f95f5b441^a08d6c0f95f5b441^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/johanndiedrick/Documents/Tisch/Courses/Spatial%20Media/Assignments/Circulation/Code/Circulation/platform/main.plist0000000000000000^600"ProcessInfoPlistFile build/Debug/Circulation.app/Contents/Info.plist platform/main.plist    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation"    builtin-infoPlistUtility platform/main.plist -genpkginfo "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app/Contents/Info.plist"36"EB28390D-03B6-4C97-8C27-959844359180-
+
+CProcessPCH /Users/johanndiedrick/Library/Developer/Xcode/DerivedData/Circulation-gvtarcnjlcobkmdiekmienhsjywa/Index/PrecompiledHeaders/main-hevjwnuuqnabfhbawvuypemvvrvh_ast/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-fgbdzsjpsthethgjxghtafkxkyaz/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s351638799.433731
+e351638801.154355
+r1
+xProcessPCH
+x/var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-fgbdzsjpsthethgjxghtafkxkyaz/main.pch.pth
+xplatform/main.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile platform/main.pch7c2a6f0f95f5b441^f59d271195f5b441^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/johanndiedrick/Documents/Tisch/Courses/Spatial%20Media/Assignments/Circulation/Code/Circulation/platform/main.pch0000000000000000^3136"ProcessPCH /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-fgbdzsjpsthethgjxghtafkxkyaz/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-generated-files.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-own-target-headers.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-all-target-headers.hmap" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-project-headers.hmap" -iquote/pocode/libraries/pocode "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/include" -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/DerivedSources/i386" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/DerivedSources" "-F/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug" -c "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/platform/main.pch" -o /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-fgbdzsjpsthethgjxghtafkxkyaz/main.pch.pth -MMD -MT dependencies -MF /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-fgbdzsjpsthethgjxghtafkxkyaz/main.pch.d36"C24A746D-11A4-40EB-8E30-6B27790531E2-
+
+CProcessPCH++ /Users/johanndiedrick/Library/Developer/Xcode/DerivedData/Circulation-gvtarcnjlcobkmdiekmienhsjywa/Index/PrecompiledHeaders/main-doinqbojtdrkvnbduztzrgesnbdr_ast/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /Users/johanndiedrick/Library/Developer/Xcode/DerivedData/Circulation-gvtarcnjlcobkmdiekmienhsjywa/Index/PrecompiledHeaders/main-faxemedlnauocdbfepsfgzrlaxyx_ast/main.pch.pth platform/main.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-dkbtkqpfhxfxcegzgahruztyiqjo/main.pch.pth platform/main.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s351638799.432359
+e351638801.103465
+r1
+xProcessPCH++
+x/var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-dkbtkqpfhxfxcegzgahruztyiqjo/main.pch.pth
+xplatform/main.pch
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile platform/main.pch77146f0f95f5b441^088f1a1195f5b441^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/johanndiedrick/Documents/Tisch/Courses/Spatial%20Media/Assignments/Circulation/Code/Circulation/platform/main.pch0000000000000000^3202"ProcessPCH++ /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-dkbtkqpfhxfxcegzgahruztyiqjo/main.pch.pth platform/main.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-generated-files.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-own-target-headers.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-all-target-headers.hmap" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-project-headers.hmap" -iquote/pocode/libraries/pocode "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/include" -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/DerivedSources/i386" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/DerivedSources" "-F/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug" -c "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/platform/main.pch" -o /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-dkbtkqpfhxfxcegzgahruztyiqjo/main.pch.pth -MMD -MT dependencies -MF /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-dkbtkqpfhxfxcegzgahruztyiqjo/main.pch.d36"F59993CA-5070-4C55-A823-62C9537DB0BC-
+
+CProcessPCH++ /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-fiyllaoovqnmyfclhhzevanzdpmi/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s351638801.104769
+e351638801.231860
+r1
+xProcessPCH++
+x/var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-fiyllaoovqnmyfclhhzevanzdpmi/main.pch.pth
+xplatform/main.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile platform/main.pchfef11a1195f5b441^605b3b1195f5b441^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/johanndiedrick/Documents/Tisch/Courses/Spatial%20Media/Assignments/Circulation/Code/Circulation/platform/main.pch0000000000000000^3006"ProcessPCH++ /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-fiyllaoovqnmyfclhhzevanzdpmi/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-generated-files.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-own-target-headers.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-all-target-headers.hmap" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-project-headers.hmap" -iquote/pocode/libraries/pocode "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/include" -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/DerivedSources/i386" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/DerivedSources" "-F/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug" -c "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/platform/main.pch" -o /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-fiyllaoovqnmyfclhhzevanzdpmi/main.pch.pth -MMD -MT dependencies -MF /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-fiyllaoovqnmyfclhhzevanzdpmi/main.pch.d36"F686B918-1376-4B7B-8438-CFC38E9724EA-
+
+CTouch "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app"
+r0
+
