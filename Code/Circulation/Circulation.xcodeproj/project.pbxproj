@@ -1,0 +1,225 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E815A7C14F58E2A00DB30CD /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8E815A7B14F58E2A00DB30CD /* AppDelegate.mm */; };
+		8E815A7E14F58E2A00DB30CD /* en.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E815A7D14F58E2A00DB30CD /* en.strings */; };
+		8E815A8014F58E2A00DB30CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E815A7F14F58E2A00DB30CD /* main.m */; };
+		8E815A8214F58E2A00DB30CD /* main.pch in Resources */ = {isa = PBXBuildFile; fileRef = 8E815A8114F58E2A00DB30CD /* main.pch */; };
+		8E815A8514F58E2A00DB30CD /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E815A8414F58E2A00DB30CD /* main.xib */; };
+		8E815A8814F58E2A00DB30CD /* poOpenGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8E815A8714F58E2A00DB30CD /* poOpenGLView.mm */; };
+		8E815A8C14F58E2A00DB30CD /* CirculationApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E815A8B14F58E2A00DB30CD /* CirculationApp.cpp */; };
+		8E815A8E14F58E2A00DB30CD /* AppConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E815A8D14F58E2A00DB30CD /* AppConfig.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E815A7314F58E2A00DB30CD /* Circulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Circulation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E815A7814F58E2A00DB30CD /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = ../platform/Debug.xcconfig; sourceTree = "<group>"; };
+		8E815A7914F58E2A00DB30CD /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = ../platform/Release.xcconfig; sourceTree = "<group>"; };
+		8E815A7A14F58E2A00DB30CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../platform/AppDelegate.h; sourceTree = "<group>"; };
+		8E815A7B14F58E2A00DB30CD /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = ../platform/AppDelegate.mm; sourceTree = "<group>"; };
+		8E815A7D14F58E2A00DB30CD /* en.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en.strings; path = ../platform/en.strings; sourceTree = "<group>"; };
+		8E815A7F14F58E2A00DB30CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../platform/main.m; sourceTree = "<group>"; };
+		8E815A8114F58E2A00DB30CD /* main.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = main.pch; path = ../platform/main.pch; sourceTree = "<group>"; };
+		8E815A8314F58E2A00DB30CD /* main.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = main.plist; path = ../platform/main.plist; sourceTree = "<group>"; };
+		8E815A8414F58E2A00DB30CD /* main.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = main.xib; path = ../platform/main.xib; sourceTree = "<group>"; };
+		8E815A8614F58E2A00DB30CD /* poOpenGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = poOpenGLView.h; path = ../platform/poOpenGLView.h; sourceTree = "<group>"; };
+		8E815A8714F58E2A00DB30CD /* poOpenGLView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = poOpenGLView.mm; path = ../platform/poOpenGLView.mm; sourceTree = "<group>"; };
+		8E815A8A14F58E2A00DB30CD /* CirculationApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CirculationApp.h; sourceTree = "<group>"; };
+		8E815A8B14F58E2A00DB30CD /* CirculationApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CirculationApp.cpp; sourceTree = "<group>"; };
+		8E815A8D14F58E2A00DB30CD /* AppConfig.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AppConfig.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E815A7014F58E2A00DB30CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E815A6814F58E2900DB30CD = {
+			isa = PBXGroup;
+			children = (
+				8E815A7614F58E2A00DB30CD /* Circulation */,
+				8E815A7414F58E2A00DB30CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E815A7414F58E2A00DB30CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E815A7314F58E2A00DB30CD /* Circulation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E815A7614F58E2A00DB30CD /* Circulation */ = {
+			isa = PBXGroup;
+			children = (
+				8E815A7714F58E2A00DB30CD /* platform */,
+				8E815A8914F58E2A00DB30CD /* application */,
+			);
+			path = Circulation;
+			sourceTree = "<group>";
+		};
+		8E815A7714F58E2A00DB30CD /* platform */ = {
+			isa = PBXGroup;
+			children = (
+				8E815A7814F58E2A00DB30CD /* Debug.xcconfig */,
+				8E815A7914F58E2A00DB30CD /* Release.xcconfig */,
+				8E815A7A14F58E2A00DB30CD /* AppDelegate.h */,
+				8E815A7B14F58E2A00DB30CD /* AppDelegate.mm */,
+				8E815A7D14F58E2A00DB30CD /* en.strings */,
+				8E815A7F14F58E2A00DB30CD /* main.m */,
+				8E815A8114F58E2A00DB30CD /* main.pch */,
+				8E815A8314F58E2A00DB30CD /* main.plist */,
+				8E815A8414F58E2A00DB30CD /* main.xib */,
+				8E815A8614F58E2A00DB30CD /* poOpenGLView.h */,
+				8E815A8714F58E2A00DB30CD /* poOpenGLView.mm */,
+			);
+			name = platform;
+			sourceTree = "<group>";
+		};
+		8E815A8914F58E2A00DB30CD /* application */ = {
+			isa = PBXGroup;
+			children = (
+				8E815A8A14F58E2A00DB30CD /* CirculationApp.h */,
+				8E815A8B14F58E2A00DB30CD /* CirculationApp.cpp */,
+				8E815A8D14F58E2A00DB30CD /* AppConfig.cpp */,
+			);
+			name = application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E815A7214F58E2A00DB30CD /* Circulation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E815A9114F58E2A00DB30CD /* Build configuration list for PBXNativeTarget "Circulation" */;
+			buildPhases = (
+				8E815A6F14F58E2A00DB30CD /* Sources */,
+				8E815A7014F58E2A00DB30CD /* Frameworks */,
+				8E815A7114F58E2A00DB30CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Circulation;
+			productName = Circulation;
+			productReference = 8E815A7314F58E2A00DB30CD /* Circulation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E815A6A14F58E2900DB30CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 8E815A6D14F58E2900DB30CD /* Build configuration list for PBXProject "Circulation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8E815A6814F58E2900DB30CD;
+			productRefGroup = 8E815A7414F58E2A00DB30CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E815A7214F58E2A00DB30CD /* Circulation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E815A7114F58E2A00DB30CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E815A7E14F58E2A00DB30CD /* en.strings in Resources */,
+				8E815A8214F58E2A00DB30CD /* main.pch in Resources */,
+				8E815A8514F58E2A00DB30CD /* main.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E815A6F14F58E2A00DB30CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E815A7C14F58E2A00DB30CD /* AppDelegate.mm in Sources */,
+				8E815A8014F58E2A00DB30CD /* main.m in Sources */,
+				8E815A8814F58E2A00DB30CD /* poOpenGLView.mm in Sources */,
+				8E815A8C14F58E2A00DB30CD /* CirculationApp.cpp in Sources */,
+				8E815A8E14F58E2A00DB30CD /* AppConfig.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8E815A8F14F58E2A00DB30CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E815A7814F58E2A00DB30CD /* Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		8E815A9014F58E2A00DB30CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E815A7914F58E2A00DB30CD /* Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		8E815A9214F58E2A00DB30CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		8E815A9314F58E2A00DB30CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E815A6D14F58E2900DB30CD /* Build configuration list for PBXProject "Circulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E815A8F14F58E2A00DB30CD /* Debug */,
+				8E815A9014F58E2A00DB30CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E815A9114F58E2A00DB30CD /* Build configuration list for PBXNativeTarget "Circulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E815A9214F58E2A00DB30CD /* Debug */,
+				8E815A9314F58E2A00DB30CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E815A6A14F58E2900DB30CD /* Project object */;
+}
