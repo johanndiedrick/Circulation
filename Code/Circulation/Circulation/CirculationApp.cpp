@@ -94,6 +94,18 @@ CirculationApp::CirculationApp() {
     D->position.set(getWindowWidth()/2, getWindowHeight()/2, 0);
     D->rotation =  0;
     addChild(D);
+    
+    
+    
+    poTextBox* text = new poTextBox(50, 20); // create potextbox with a given size
+    text->setText( title );						// Set the text based on the value of the node
+    text->setFont( poGetFont("Helvetica", "Regular") );
+    text->setTextSize(13);
+    text->textColor = poColor::white;
+    text->doLayout();
+    text->position.set(150, -150, 0);
+    A->addChild(text);
+
   
 
 }
