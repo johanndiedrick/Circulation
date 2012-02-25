@@ -13,6 +13,7 @@ poObject *createObjectForID(uint uid) {
 }
 
 void setupApplication() {
+    lookUpAndSetPath("resources");
 	applicationCreateWindow(0, WINDOW_TYPE_NORMAL, "Circulation", 100, 100, 1024, 768);
 }
 

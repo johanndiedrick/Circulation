@@ -3,6 +3,8 @@
  */
 
 #include "poObject.h"
+#include "poShape2D.h"
+
 
 class CirculationApp : public poObject {
 public:
@@ -16,5 +18,10 @@ public:
     virtual void eventHandler(poEvent *event);
 	
     virtual void messageHandler(const std::string &msg, const poDictionary& dict=poDictionary());
+    
+    poShape2D* A;
+    poShape2D* B;
+    poShape2D* C;
+    poShape2D* D;
 };
 

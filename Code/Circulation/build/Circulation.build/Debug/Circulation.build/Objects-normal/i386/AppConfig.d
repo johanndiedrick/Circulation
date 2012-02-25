@@ -743,4 +743,7 @@ dependencies: \
   /pocode/libraries/glm/gtc/type_ptr.inl \
   /pocode/libraries/glm/gtc/matrix_transform.hpp \
   /pocode/libraries/glm/gtc/matrix_transform.inl \
-  /pocode/libraries/pocode/include/poObjectModifier.h
+  /pocode/libraries/pocode/include/poObjectModifier.h \
+  /pocode/libraries/pocode/include/poShape2D.h \
+  /pocode/libraries/pocode/include/poSimpleDrawing.h \
+  /pocode/libraries/pocode/include/poTexture.h

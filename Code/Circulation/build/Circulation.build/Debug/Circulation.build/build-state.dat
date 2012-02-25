@@ -48,23 +48,23 @@ t1329944234
 s4852
 
 N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/AppConfig.cpp
-c000000004F4556AA0000000000000190
-t1329944234
-s400
+c000000004F48EFDE00000000000001B3
+t1330180062
+s435
 
 N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/CirculationApp.cpp
-c000000004F4575EB000000000000079E
-t1329952235
-s1950
+c000000004F48EF2B0000000000000D51
+t1330179883
+s3409
 
 N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/CirculationApp.h
-c000000004F4556AA00000000000001B4
-t1329944234
-s436
+c000000004F48145E0000000000000219
+t1330123870
+s537
 
 N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/AppConfig.o
-t1329946030
-s412512
+t1330123879
+s418304
 
 N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/AppDelegate.o
 t1329946010
@@ -76,8 +76,8 @@ t1329945999
 s910
 
 N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/CirculationApp.o
-t1329952027
-s435600
+t1330179888
+s446624
 
 N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/main.o
 t1329946006
@@ -88,7 +88,7 @@ t1329946010
 s414080
 
 N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app
-t1329952028
+t1330179889
 s102
 
 N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app/Contents/Info.plist
@@ -96,8 +96,8 @@ t1329945999
 s1281
 
 N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app/Contents/MacOS/Circulation
-t1329952028
-s7588712
+t1330179889
+s7594412
 
 N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app/Contents/PkgInfo
 t1329945999
@@ -129,6 +129,221 @@ N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circula
 c000000004F4556AA00000000000002A8
 t1329944234
 s680
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string.hpp
+c000000004F26C3670000000000000425
+t1327940455
+s1061
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/case_conv.hpp
+c000000004F26C3670000000000001819
+t1327940455
+s6169
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/classification.hpp
+c000000004F26C3670000000000002D7A
+t1327940455
+s11642
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/compare.hpp
+c000000004F26C36700000000000018E5
+t1327940455
+s6373
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/concept.hpp
+c000000004F26C3670000000000000923
+t1327940455
+s2339
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/config.hpp
+c000000004F26C3670000000000000316
+t1327940455
+s790
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/constants.hpp
+c000000004F26C36700000000000003E7
+t1327940455
+s999
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/detail/case_conv.hpp
+c000000004F26C367000000000000100D
+t1327940455
+s4109
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/detail/classification.hpp
+c000000004F26C367000000000000302D
+t1327940455
+s12333
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/detail/find_format.hpp
+c000000004F26C3670000000000001D76
+t1327940455
+s7542
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/detail/find_format_all.hpp
+c000000004F26C367000000000000278C
+t1327940455
+s10124
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/detail/find_format_store.hpp
+c000000004F26C3670000000000000C4D
+t1327940455
+s3149
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/detail/find_iterator.hpp
+c000000004F26C3670000000000000AA8
+t1327940455
+s2728
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/detail/finder.hpp
+c000000004F26C3670000000000005B89
+t1327940455
+s23433
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/detail/finder_regex.hpp
+c000000004F26C36700000000000011E2
+t1327940455
+s4578
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/detail/formatter.hpp
+c000000004F26C3670000000000000BC0
+t1327940455
+s3008
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/detail/formatter_regex.hpp
+c000000004F26C36700000000000007CD
+t1327940455
+s1997
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/detail/predicate.hpp
+c000000004F26C36700000000000009AE
+t1327940455
+s2478
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/detail/replace_storage.hpp
+c000000004F26C3670000000000001738
+t1327940455
+s5944
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/detail/sequence.hpp
+c000000004F26C3670000000000001D69
+t1327940455
+s7529
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/detail/trim.hpp
+c000000004F26C3670000000000000C79
+t1327940455
+s3193
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/detail/util.hpp
+c000000004F26C3670000000000000D80
+t1327940455
+s3456
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/erase.hpp
+c000000004F26C3670000000000007C40
+t1327940455
+s31808
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/find.hpp
+c000000004F26C36700000000000032FA
+t1327940455
+s13050
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/find_format.hpp
+c000000004F26C3670000000000002827
+t1327940455
+s10279
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/find_iterator.hpp
+c000000004F26C3670000000000002DFE
+t1327940455
+s11774
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/finder.hpp
+c000000004F26C3670000000000002571
+t1327940455
+s9585
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/formatter.hpp
+c000000004F26C3670000000000000DFE
+t1327940455
+s3582
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/iter_find.hpp
+c000000004F26C3670000000000001CA0
+t1327940455
+s7328
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/join.hpp
+c000000004F26C36700000000000013B6
+t1327940455
+s5046
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/predicate.hpp
+c000000004F26C36700000000000043C2
+t1327940455
+s17346
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/predicate_facade.hpp
+c000000004F26C367000000000000052B
+t1327940455
+s1323
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/regex.hpp
+c000000004F26C3670000000000006181
+t1327940455
+s24961
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/regex_find_format.hpp
+c000000004F26C3670000000000000C85
+t1327940455
+s3205
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/replace.hpp
+c000000004F26C3670000000000008CD2
+t1327940455
+s36050
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/sequence_traits.hpp
+c000000004F26C3670000000000001A72
+t1327940455
+s6770
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/split.hpp
+c000000004F26C36700000000000019AC
+t1327940455
+s6572
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/std/list_traits.hpp
+c000000004F26C3670000000000000A85
+t1327940455
+s2693
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/std/slist_traits.hpp
+c000000004F26C3670000000000000B53
+t1327940455
+s2899
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/std/string_traits.hpp
+c000000004F26C367000000000000064A
+t1327940455
+s1610
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/std_containers_traits.hpp
+c000000004F26C3670000000000000344
+t1327940455
+s836
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/trim.hpp
+c000000004F26C367000000000000376E
+t1327940455
+s14190
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/algorithm/string/yes_no_type.hpp
+c000000004F26C36700000000000003E7
+t1327940455
+s999
 
 N/pocode/libraries/Boost/boost_1_45_0/boost/aligned_storage.hpp
 c000000004F26C36700000000000010C9
@@ -230,6 +445,46 @@ c000000004F26C3680000000000000635
 t1327940456
 s1589
 
+N/pocode/libraries/Boost/boost_1_45_0/boost/concept/assert.hpp
+c000000004F26C3690000000000000748
+t1327940457
+s1864
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/concept/detail/backward_compatibility.hpp
+c000000004F26C3690000000000000233
+t1327940457
+s563
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/concept/detail/concept_def.hpp
+c000000004F26C3690000000000000C34
+t1327940457
+s3124
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/concept/detail/concept_undef.hpp
+c000000004F26C36900000000000000F0
+t1327940457
+s240
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/concept/detail/general.hpp
+c000000004F26C3690000000000000747
+t1327940457
+s1863
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/concept/detail/has_constraints.hpp
+c000000004F26C3690000000000000664
+t1327940457
+s1636
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/concept/usage.hpp
+c000000004F26C36900000000000004BD
+t1327940457
+s1213
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/concept_check.hpp
+c000000004F26C36900000000000076C1
+t1327940457
+s30401
+
 N/pocode/libraries/Boost/boost_1_45_0/boost/config.hpp
 c000000004F26C3690000000000000802
 t1327940457
@@ -254,6 +509,11 @@ N/pocode/libraries/Boost/boost_1_45_0/boost/config/compiler/clang.hpp
 c000000004F26C36900000000000006B6
 t1327940457
 s1718
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/config/no_tr1/cmath.hpp
+c000000004F26C3690000000000000346
+t1327940457
+s838
 
 N/pocode/libraries/Boost/boost_1_45_0/boost/config/no_tr1/functional.hpp
 c000000004F26C369000000000000036E
@@ -324,6 +584,11 @@ N/pocode/libraries/Boost/boost_1_45_0/boost/detail/call_traits.hpp
 c000000004F26C3690000000000000FD2
 t1327940457
 s4050
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/detail/container_fwd.hpp
+c000000004F26C3690000000000000A08
+t1327940457
+s2568
 
 N/pocode/libraries/Boost/boost_1_45_0/boost/detail/indirect_traits.hpp
 c000000004F26C3690000000000002B94
@@ -415,6 +680,101 @@ c000000004F26C369000000000000DABC
 t1327940457
 s55996
 
+N/pocode/libraries/Boost/boost_1_45_0/boost/format.hpp
+c000000004F26C3690000000000000883
+t1327940457
+s2179
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/format/alt_sstream.hpp
+c000000004F26C3690000000000001D0E
+t1327940457
+s7438
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/format/alt_sstream_impl.hpp
+c000000004F26C36900000000000034A6
+t1327940457
+s13478
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/format/detail/compat_workarounds.hpp
+c000000004F26C3690000000000000C2C
+t1327940457
+s3116
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/format/detail/config_macros.hpp
+c000000004F26C3690000000000000CC3
+t1327940457
+s3267
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/format/detail/msvc_disambiguater.hpp
+c000000004F26C36900000000000006CE
+t1327940457
+s1742
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/format/detail/unset_macros.hpp
+c000000004F26C3690000000000000457
+t1327940457
+s1111
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/format/detail/workarounds_gcc-2_95.hpp
+c000000004F26C3690000000000001316
+t1327940457
+s4886
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/format/detail/workarounds_stlport.hpp
+c000000004F26C3690000000000000652
+t1327940457
+s1618
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/format/exceptions.hpp
+c000000004F26C3690000000000000D6F
+t1327940457
+s3439
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/format/feed_args.hpp
+c000000004F26C3690000000000002D58
+t1327940457
+s11608
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/format/format_class.hpp
+c000000004F26C3690000000000001BC9
+t1327940457
+s7113
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/format/format_fwd.hpp
+c000000004F26C36900000000000006BF
+t1327940457
+s1727
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/format/format_implementation.hpp
+c000000004F26C3690000000000002E5B
+t1327940457
+s11867
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/format/free_funcs.hpp
+c000000004F26C3690000000000000A44
+t1327940457
+s2628
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/format/group.hpp
+c000000004F26C36900000000000045D7
+t1327940457
+s17879
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/format/internals.hpp
+c000000004F26C3690000000000001F88
+t1327940457
+s8072
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/format/internals_fwd.hpp
+c000000004F26C369000000000000080A
+t1327940457
+s2058
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/format/parsing.hpp
+c000000004F26C36900000000000049F7
+t1327940457
+s18935
+
 N/pocode/libraries/Boost/boost_1_45_0/boost/function.hpp
 c000000004F26C3690000000000000864
 t1327940457
@@ -460,6 +820,46 @@ c000000004F26C3690000000000000626
 t1327940457
 s1574
 
+N/pocode/libraries/Boost/boost_1_45_0/boost/functional/hash.hpp
+c000000004F26C36A00000000000000EB
+t1327940458
+s235
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/functional/hash/detail/float_functions.hpp
+c000000004F26C36A0000000000002A9D
+t1327940458
+s10909
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/functional/hash/detail/hash_float.hpp
+c000000004F26C36A00000000000009CD
+t1327940458
+s2509
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/functional/hash/detail/hash_float_generic.hpp
+c000000004F26C36A0000000000000AA0
+t1327940458
+s2720
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/functional/hash/detail/limits.hpp
+c000000004F26C36A0000000000000689
+t1327940458
+s1673
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/functional/hash/extensions.hpp
+c000000004F26C36A0000000000001E89
+t1327940458
+s7817
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/functional/hash/hash.hpp
+c000000004F26C36A000000000000366A
+t1327940458
+s13930
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/functional/hash/hash_fwd.hpp
+c000000004F26C36A0000000000000469
+t1327940458
+s1129
+
 N/pocode/libraries/Boost/boost_1_45_0/boost/get_pointer.hpp
 c000000004F26C36B0000000000000399
 t1327940459
@@ -474,6 +874,11 @@ N/pocode/libraries/Boost/boost_1_45_0/boost/integer.hpp
 c000000004F26C36C0000000000002A7D
 t1327940460
 s10877
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/integer/static_log2.hpp
+c000000004F26C36C0000000000000DD4
+t1327940460
+s3540
 
 N/pocode/libraries/Boost/boost_1_45_0/boost/integer_fwd.hpp
 c000000004F26C36C0000000000001209
@@ -530,6 +935,11 @@ c000000004F26C36E00000000000014CB
 t1327940462
 s5323
 
+N/pocode/libraries/Boost/boost_1_45_0/boost/iterator/iterator_concepts.hpp
+c000000004F26C36E0000000000001E58
+t1327940462
+s7768
+
 N/pocode/libraries/Boost/boost_1_45_0/boost/iterator/iterator_facade.hpp
 c000000004F26C36E000000000000722D
 t1327940462
@@ -544,6 +954,11 @@ N/pocode/libraries/Boost/boost_1_45_0/boost/iterator/reverse_iterator.hpp
 c000000004F26C36E0000000000000787
 t1327940462
 s1927
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/iterator/transform_iterator.hpp
+c000000004F26C36E000000000000180A
+t1327940462
+s6154
 
 N/pocode/libraries/Boost/boost_1_45_0/boost/lexical_cast.hpp
 c000000004F26C36E00000000000095EA
@@ -2480,10 +2895,380 @@ c000000004F26C37400000000000013E7
 t1327940468
 s5095
 
+N/pocode/libraries/Boost/boost_1_45_0/boost/range/algorithm/equal.hpp
+c000000004F26C37500000000000021F0
+t1327940469
+s8688
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/range/as_literal.hpp
+c000000004F26C3750000000000000BF7
+t1327940469
+s3063
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/range/begin.hpp
+c000000004F26C3750000000000000C7B
+t1327940469
+s3195
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/range/concepts.hpp
+c000000004F26C3750000000000002CA7
+t1327940469
+s11431
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/range/config.hpp
+c000000004F26C3750000000000000533
+t1327940469
+s1331
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/range/const_iterator.hpp
+c000000004F26C3750000000000000742
+t1327940469
+s1858
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/range/detail/common.hpp
+c000000004F26C3750000000000001A6B
+t1327940469
+s6763
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/range/detail/extract_optional_type.hpp
+c000000004F26C3750000000000000840
+t1327940469
+s2112
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/range/detail/implementation_help.hpp
+c000000004F26C3750000000000000B08
+t1327940469
+s2824
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/range/detail/misc_concept.hpp
+c000000004F26C3750000000000000336
+t1327940469
+s822
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/range/detail/sfinae.hpp
+c000000004F26C3750000000000000A8B
+t1327940469
+s2699
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/range/detail/str_types.hpp
+c000000004F26C375000000000000032D
+t1327940469
+s813
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/range/difference_type.hpp
+c000000004F26C37500000000000002E2
+t1327940469
+s738
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/range/distance.hpp
+c000000004F26C375000000000000032C
+t1327940469
+s812
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/range/empty.hpp
+c000000004F26C37500000000000002DB
+t1327940469
+s731
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/range/end.hpp
+c000000004F26C3750000000000000D54
+t1327940469
+s3412
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/range/functions.hpp
+c000000004F26C37500000000000002BE
+t1327940469
+s702
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/range/iterator.hpp
+c000000004F26C3750000000000000754
+t1327940469
+s1876
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/range/iterator_range.hpp
+c000000004F26C3750000000000000212
+t1327940469
+s530
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/range/iterator_range_core.hpp
+c000000004F26C3750000000000004826
+t1327940469
+s18470
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/range/iterator_range_io.hpp
+c000000004F26C3750000000000000A5E
+t1327940469
+s2654
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/range/mutable_iterator.hpp
+c000000004F26C3750000000000000730
+t1327940469
+s1840
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/range/rbegin.hpp
+c000000004F26C37500000000000005D8
+t1327940469
+s1496
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/range/rend.hpp
+c000000004F26C37500000000000005B2
+t1327940469
+s1458
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/range/reverse_iterator.hpp
+c000000004F26C37500000000000003EB
+t1327940469
+s1003
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/range/size.hpp
+c000000004F26C37500000000000003A4
+t1327940469
+s932
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/range/size_type.hpp
+c000000004F26C37500000000000007E2
+t1327940469
+s2018
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/range/value_type.hpp
+c000000004F26C3750000000000000339
+t1327940469
+s825
+
 N/pocode/libraries/Boost/boost_1_45_0/boost/ref.hpp
 c000000004F26C3750000000000000F56
 t1327940469
 s3926
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex.hpp
+c000000004F26C3750000000000000337
+t1327940469
+s823
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/config.hpp
+c000000004F26C375000000000000318C
+t1327940469
+s12684
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/config/cwchar.hpp
+c000000004F26C3750000000000000FF2
+t1327940469
+s4082
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/pattern_except.hpp
+c000000004F26C3750000000000000896
+t1327940469
+s2198
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/pending/object_cache.hpp
+c000000004F26C375000000000000145E
+t1327940469
+s5214
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/pending/static_mutex.hpp
+c000000004F26C3750000000000001054
+t1327940469
+s4180
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/regex_traits.hpp
+c000000004F26C37500000000000002DD
+t1327940469
+s733
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/user.hpp
+c000000004F26C3750000000000000C1E
+t1327940469
+s3102
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/basic_regex.hpp
+c000000004F26C3750000000000005928
+t1327940469
+s22824
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/basic_regex_creator.hpp
+c000000004F26C375000000000000CC18
+t1327940469
+s52248
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/basic_regex_parser.hpp
+c000000004F26C375000000000001821A
+t1327940469
+s98842
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/c_regex_traits.hpp
+c000000004F26C3750000000000001579
+t1327940469
+s5497
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/char_regex_traits.hpp
+c000000004F26C37500000000000006BE
+t1327940469
+s1726
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/cpp_regex_traits.hpp
+c000000004F26C3750000000000008843
+t1327940469
+s34883
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/error_type.hpp
+c000000004F26C37500000000000004EA
+t1327940469
+s1258
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/instances.hpp
+c000000004F26C375000000000000215F
+t1327940469
+s8543
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/iterator_category.hpp
+c000000004F26C37500000000000007A8
+t1327940469
+s1960
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/iterator_traits.hpp
+c000000004F26C3750000000000000EF7
+t1327940469
+s3831
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/match_flags.hpp
+c000000004F26C3750000000000001807
+t1327940469
+s6151
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/match_results.hpp
+c000000004F26C3750000000000005587
+t1327940469
+s21895
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/perl_matcher.hpp
+c000000004F26C3750000000000004327
+t1327940469
+s17191
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/perl_matcher_common.hpp
+c000000004F26C3750000000000007196
+t1327940469
+s29078
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/perl_matcher_non_recursive.hpp
+c000000004F26C375000000000000CD4C
+t1327940469
+s52556
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/primary_transform.hpp
+c000000004F26C3750000000000000CFB
+t1327940469
+s3323
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/protected_call.hpp
+c000000004F26C375000000000000068C
+t1327940469
+s1676
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/regbase.hpp
+c000000004F26C3750000000000001754
+t1327940469
+s5972
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/regex.hpp
+c000000004F26C37500000000000011EE
+t1327940469
+s4590
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/regex_format.hpp
+c000000004F26C3750000000000008313
+t1327940469
+s33555
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/regex_fwd.hpp
+c000000004F26C375000000000000066E
+t1327940469
+s1646
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/regex_grep.hpp
+c000000004F26C3750000000000001303
+t1327940469
+s4867
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/regex_iterator.hpp
+c000000004F26C37500000000000019C7
+t1327940469
+s6599
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/regex_match.hpp
+c000000004F26C375000000000000387F
+t1327940469
+s14463
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/regex_merge.hpp
+c000000004F26C3750000000000000ACD
+t1327940469
+s2765
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/regex_raw_buffer.hpp
+c000000004F26C3750000000000000E36
+t1327940469
+s3638
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/regex_replace.hpp
+c000000004F26C3750000000000000B3D
+t1327940469
+s2877
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/regex_search.hpp
+c000000004F26C3750000000000001BA1
+t1327940469
+s7073
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/regex_split.hpp
+c000000004F26C3750000000000001310
+t1327940469
+s4880
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/regex_token_iterator.hpp
+c000000004F26C375000000000000338A
+t1327940469
+s13194
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/regex_traits.hpp
+c000000004F26C3750000000000001363
+t1327940469
+s4963
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/regex_traits_defaults.hpp
+c000000004F26C3750000000000002AA7
+t1327940469
+s10919
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/regex_workaround.hpp
+c000000004F26C37500000000000016E7
+t1327940469
+s5863
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/states.hpp
+c000000004F26C3750000000000002BEA
+t1327940469
+s11242
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/sub_match.hpp
+c000000004F26C37500000000000056EF
+t1327940469
+s22255
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex/v4/syntax_type.hpp
+c000000004F26C3750000000000001116
+t1327940469
+s4374
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/regex_fwd.hpp
+c000000004F26C37500000000000002B5
+t1327940469
+s693
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/scoped_array.hpp
+c000000004F26C37500000000000001F6
+t1327940469
+s502
 
 N/pocode/libraries/Boost/boost_1_45_0/boost/scoped_ptr.hpp
 c000000004F26C37500000000000001EB
@@ -2735,6 +3520,11 @@ c000000004F26C3750000000000000980
 t1327940469
 s2432
 
+N/pocode/libraries/Boost/boost_1_45_0/boost/smart_ptr/scoped_array.hpp
+c000000004F26C37500000000000009FC
+t1327940469
+s2556
+
 N/pocode/libraries/Boost/boost_1_45_0/boost/smart_ptr/scoped_ptr.hpp
 c000000004F26C3750000000000000B99
 t1327940469
@@ -2834,6 +3624,11 @@ N/pocode/libraries/Boost/boost_1_45_0/boost/type_traits/config.hpp
 c000000004F26C3790000000000000A0A
 t1327940473
 s2570
+
+N/pocode/libraries/Boost/boost_1_45_0/boost/type_traits/conversion_traits.hpp
+c000000004F26C3790000000000000292
+t1327940473
+s658
 
 N/pocode/libraries/Boost/boost_1_45_0/boost/type_traits/detail/bool_trait_def.hpp
 c000000004F26C37900000000000013A3
@@ -3740,6 +4535,21 @@ c000000004F26C3890000000000000A44
 t1327940489
 s2628
 
+N/pocode/libraries/pocode/include/poAttributedString.h
+c000000004F26C389000000000000046C
+t1327940489
+s1132
+
+N/pocode/libraries/pocode/include/poBinPacker.h
+c000000004F26C389000000000000063E
+t1327940489
+s1598
+
+N/pocode/libraries/pocode/include/poBitmapFont.h
+c000000004F26C3890000000000000351
+t1327940489
+s849
+
 N/pocode/libraries/pocode/include/poCamera.h
 c000000004F26C3890000000000001541
 t1327940489
@@ -3835,15 +4645,40 @@ c000000004F26C389000000000000161E
 t1327940489
 s5662
 
+N/pocode/libraries/pocode/include/poShapeBasics2D.h
+c000000004F26C389000000000000123A
+t1327940489
+s4666
+
 N/pocode/libraries/pocode/include/poSimpleDrawing.h
 c000000004F26C38900000000000009E6
 t1327940489
 s2534
 
+N/pocode/libraries/pocode/include/poTextBox.h
+c000000004F26C3890000000000001BC4
+t1327940489
+s7108
+
+N/pocode/libraries/pocode/include/poTextBoxLayout.h
+c000000004F26C389000000000000049D
+t1327940489
+s1181
+
+N/pocode/libraries/pocode/include/poTextLayout.h
+c000000004F26C38900000000000008EF
+t1327940489
+s2287
+
 N/pocode/libraries/pocode/include/poTexture.h
 c000000004F26C3890000000000000D36
 t1327940489
 s3382
+
+N/pocode/libraries/pocode/include/poTextureAtlas.h
+c000000004F26C3890000000000000760
+t1327940489
+s1888
 
 N/pocode/libraries/pocode/include/poTween.h
 c000000004F26C38900000000000019AF
@@ -3904,11 +4739,11 @@ r0
 
 CCheck dependencies
 r0
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies228bb06badf5b441^bc3fb26badf5b441^---0#1#0#--18"Check dependencies36"03686995-5F35-4CA1-9A35-CE75B3CF813E-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies7e01dd5e27f9b441^50e1e05e27f9b441^---0#1#0#--18"Check dependencies36"6CDB52FC-8AA0-48F1-B777-0C9C7C3BEFEE-
 
 CCompileC build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/AppConfig.o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/AppConfig.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s351638824.412662
-e351638831.173768
+s351872863.019935
+e351872868.108245
 r1
 xCompileC
 xbuild/Circulation.build/Debug/Circulation.build/Objects-normal/i386/AppConfig.o
@@ -3917,7 +4752,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Compile /Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/AppConfig.cppcac0692895f5b441^b08d2c2f95f5b441^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/johanndiedrick/Documents/Tisch/Courses/Spatial%20Media/Assignments/Circulation/Code/Circulation/Circulation/AppConfig.cpp0000000000000000^3182"CompileC build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/AppConfig.o Circulation/AppConfig.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-generated-files.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-own-target-headers.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-all-target-headers.hmap" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-project-headers.hmap" -iquote/pocode/libraries/pocode "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/include" -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/DerivedSources/i386" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/DerivedSources" "-F/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug" -include /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-fiyllaoovqnmyfclhhzevanzdpmi/main.pch -MMD -MT dependencies -MF "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/AppConfig.d" -c "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/AppConfig.cpp" -o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/AppConfig.o"36"55FD61F8-D2AD-4D58-8737-A6D3F54C3010-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Compile /Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/AppConfig.cpp4853055f27f9b441^4dd71b6427f9b441^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/johanndiedrick/Documents/Tisch/Courses/Spatial%20Media/Assignments/Circulation/Code/Circulation/Circulation/AppConfig.cpp0000000000000000^3182"CompileC build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/AppConfig.o Circulation/AppConfig.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-generated-files.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-own-target-headers.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-all-target-headers.hmap" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-project-headers.hmap" -iquote/pocode/libraries/pocode "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/include" -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/DerivedSources/i386" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/DerivedSources" "-F/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug" -include /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-fiyllaoovqnmyfclhhzevanzdpmi/main.pch -MMD -MT dependencies -MF "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/AppConfig.d" -c "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/AppConfig.cpp" -o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/AppConfig.o"36"3B298581-B014-4D10-BA9D-D4F4AD733688-
 
 CCompileC build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/AppDelegate.o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/../platform/AppDelegate.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 s351638801.155843
@@ -3933,8 +4768,8 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"Compile /Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/../platform/AppDelegate.mm460b281195f5b441^693b3a1a95f5b441^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/johanndiedrick/Documents/Tisch/Courses/Spatial%20Media/Assignments/Circulation/Code/Circulation/Circulation/../platform/AppDelegate.mm0000000000000000^3410"CompileC build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/AppDelegate.o Circulation/../platform/AppDelegate.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-generated-files.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-own-target-headers.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-all-target-headers.hmap" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-project-headers.hmap" -iquote/pocode/libraries/pocode "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/include" -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/DerivedSources/i386" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/DerivedSources" "-F/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug" -include /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-dkbtkqpfhxfxcegzgahruztyiqjo/main.pch -MMD -MT dependencies -MF "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/AppDelegate.d" -c "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/../platform/AppDelegate.mm" -o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/AppDelegate.o"36"8F4B6A50-0C9D-46D4-BE20-4D1E16899C22-
 
 CCompileC build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/CirculationApp.o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/CirculationApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s351645035.738243
-e351645042.984371
+s351872683.767927
+e351872688.556082
 r1
 xCompileC
 xbuild/Circulation.build/Debug/Circulation.build/Objects-normal/i386/CirculationApp.o
@@ -3943,7 +4778,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Compile /Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/CirculationApp.cpp821fbd6badf5b441^c729fe72adf5b441^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Users/johanndiedrick/Documents/Tisch/Courses/Spatial%20Media/Assignments/Circulation/Code/Circulation/Circulation/CirculationApp.cpp0000000000000000^3207"CompileC build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/CirculationApp.o Circulation/CirculationApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-generated-files.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-own-target-headers.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-all-target-headers.hmap" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-project-headers.hmap" -iquote/pocode/libraries/pocode "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/include" -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/DerivedSources/i386" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/DerivedSources" "-F/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug" -include /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-fiyllaoovqnmyfclhhzevanzdpmi/main.pch -MMD -MT dependencies -MF "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/CirculationApp.d" -c "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/CirculationApp.cpp" -o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/CirculationApp.o"36"5740FDBC-300C-4531-B287-A96AEB1FFB46-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Compile /Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/CirculationApp.cppc3b7c4ab26f9b441^ab5a8eb026f9b441^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Users/johanndiedrick/Documents/Tisch/Courses/Spatial%20Media/Assignments/Circulation/Code/Circulation/Circulation/CirculationApp.cpp0000000000000000^3207"CompileC build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/CirculationApp.o Circulation/CirculationApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-generated-files.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-own-target-headers.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-all-target-headers.hmap" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-project-headers.hmap" -iquote/pocode/libraries/pocode "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/include" -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/DerivedSources/i386" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/DerivedSources" "-F/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug" -include /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-fiyllaoovqnmyfclhhzevanzdpmi/main.pch -MMD -MT dependencies -MF "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/CirculationApp.d" -c "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/CirculationApp.cpp" -o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/CirculationApp.o"36"85E74EAB-49B4-4937-A644-75F38357617D-
 
 CCompileC build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/main.o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/Circulation/../platform/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s351638801.233230
@@ -3998,15 +4833,15 @@ xbuild/Debug/Circulation.app/Contents/Resources/main.pch
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Debug/Circulation.app/Contents/Resources/main.pche90aba23a9f5b441^7cd5ba23a9f5b441^---0#0#0#-19%DVTDocumentLocation2@174"file://localhost/Users/johanndiedrick/Documents/Tisch/Courses/Spatial%20Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app/Contents/Resources/main.pch00f4249adfffdf42^578"CpResource platform/main.pch build/Debug/Circulation.app/Contents/Resources/main.pch    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/platform/main.pch" "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app/Contents/Resources"36"27585C29-37FA-4093-9DEA-25092A555196-
 
 CLd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app/Contents/MacOS/Circulation" normal i386
-s351645043.001016
-e351645048.061552
+s351872868.115254
+e351872869.212489
 r1
 xLd
 x/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app/Contents/MacOS/Circulation
 xnormal
 xi386
 old: warning: direct access in __ZN5boost6system12system_errorD2Ev to global weak symbol __ZTVN5boost6system12system_errorE means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection160"Link /Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app/Contents/MacOS/Circulation30d90073adf5b441^59c10f78adf5b441^-283"ld: warning: direct access in __ZN5boost6system12system_errorD2Ev to global weak symbol __ZTVN5boost6system12system_errorE means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.1(21%IDEActivityLogMessage2@269"Direct access in __ZN5boost6system12system_errorD2Ev to global weak symbol __ZTVN5boost6system12system_errorE means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-351645047#0#283#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--1101"Ld build/Debug/Circulation.app/Contents/MacOS/Circulation normal i386    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang++ -arch i386 -isysroot /Developer/SDKs/MacOSX10.7.sdk "-L/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug" -L/pocode/libraries/pocode "-F/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug" -filelist "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/Circulation.LinkFileList" -mmacosx-version-min=10.6 -lpocode_d /usr/lib/libsqlite3.0.dylib -framework Cocoa -framework ApplicationServices -framework OpenGL -framework CoreVideo -framework QTKit -o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app/Contents/MacOS/Circulation"36"4B4CD6F6-65E1-4368-B183-EA59F3A55377-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection160"Link /Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app/Contents/MacOS/Circulationdd991d6427f9b441^af78366527f9b441^-283"ld: warning: direct access in __ZN5boost6system12system_errorD2Ev to global weak symbol __ZTVN5boost6system12system_errorE means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.1(21%IDEActivityLogMessage2@269"Direct access in __ZN5boost6system12system_errorD2Ev to global weak symbol __ZTVN5boost6system12system_errorE means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-351872868#0#283#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--1101"Ld build/Debug/Circulation.app/Contents/MacOS/Circulation normal i386    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang++ -arch i386 -isysroot /Developer/SDKs/MacOSX10.7.sdk "-L/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug" -L/pocode/libraries/pocode "-F/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug" -filelist "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Objects-normal/i386/Circulation.LinkFileList" -mmacosx-version-min=10.6 -lpocode_d /usr/lib/libsqlite3.0.dylib -framework Cocoa -framework ApplicationServices -framework OpenGL -framework CoreVideo -framework QTKit -o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app/Contents/MacOS/Circulation"36"E2CC6717-B4D8-4676-BCC8-9123CB6EC281-
 
 CProcessInfoPlistFile "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app/Contents/Info.plist" platform/main.plist
 s351638799.382368
@@ -4066,10 +4901,10 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile platform/main.pchfef11a1195f5b441^605b3b1195f5b441^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/johanndiedrick/Documents/Tisch/Courses/Spatial%20Media/Assignments/Circulation/Code/Circulation/platform/main.pch0000000000000000^3006"ProcessPCH++ /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-fiyllaoovqnmyfclhhzevanzdpmi/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-generated-files.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-own-target-headers.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-all-target-headers.hmap" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/Circulation-project-headers.hmap" -iquote/pocode/libraries/pocode "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/include" -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/DerivedSources/i386" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Circulation.build/Debug/Circulation.build/DerivedSources" "-F/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug" -c "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/platform/main.pch" -o /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-fiyllaoovqnmyfclhhzevanzdpmi/main.pch.pth -MMD -MT dependencies -MF /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-fiyllaoovqnmyfclhhzevanzdpmi/main.pch.d36"F686B918-1376-4B7B-8438-CFC38E9724EA-
 
 CTouch "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app"
-s351645048.080596
-e351645048.133660
+s351872869.230799
+e351872869.284358
 r1
 xTouch
 x/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Touch /Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app29b41478adf5b441^54382278adf5b441^---0#0#0#--297"Touch build/Debug/Circulation.app    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation"    /usr/bin/touch -c "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app"36"9E4D9F92-F52D-4190-A1CE-03E2A10C8706-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Touch /Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app4e253b6527f9b441^1fd9486527f9b441^---0#0#0#--297"Touch build/Debug/Circulation.app    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation"    /usr/bin/touch -c "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/Code/Circulation/build/Debug/Circulation.app"36"EFC55BE7-A263-4E54-B66F-6A416D13A49E-
 
