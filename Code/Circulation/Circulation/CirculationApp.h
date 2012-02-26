@@ -23,5 +23,9 @@ public:
     poShape2D* B;
     poShape2D* C;
     poShape2D* D;
+    
+    int rotationValue;
+    
+    char lastKeyDown;
 };
 

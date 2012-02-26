@@ -19,6 +19,11 @@ using namespace boost;
 CirculationApp::CirculationApp() {
 	addModifier(new poCamera2D(poColor::black));
     
+    addEvent(PO_KEY_DOWN_EVENT, this);
+    addEvent(PO_KEY_UP_EVENT, this);
+    
+    lastKeyDown = 'x';
+    
     //load xml document
     poXMLDocument doc = poXMLDocument("library.xml");
     
@@ -106,7 +111,7 @@ CirculationApp::CirculationApp() {
     text->position.set(150, -150, 0);
     A->addChild(text);
 
-  
+    int rotationValue = 0;
 
 }
 
@@ -129,10 +134,21 @@ void CirculationApp::update() {
     if(D->rotation == 360){
         D->rotation = 0;
     }
-	A->rotation += 1.0;
-    B->rotation += 1.0;
-    C->rotation += 1.0;
-    D->rotation += 1.0;
+    
+    if(lastKeyDown=='o'){
+        printf("rotating...");
+        rotationValue++;
+    }
+    
+    if(lastKeyDown=='p'){
+        rotationValue--;
+    }
+    
+    
+	A->rotation =  rotationValue;
+    B->rotation =  rotationValue;
+    C->rotation =  rotationValue;
+    D->rotation =  rotationValue;
 
     
 }
@@ -144,6 +160,16 @@ void CirculationApp::draw() {
 
 // EVENT HANDLER. Called when events happen. Respond to events here.
 void CirculationApp::eventHandler(poEvent *event) {
+    
+    if(event->type==PO_KEY_DOWN_EVENT){
+        
+        lastKeyDown = event->keyChar;
+        
+    }
+    
+   if(event->type==PO_KEY_UP_EVENT){
+        lastKeyDown = 'x';
+    }
 	
 }
 
