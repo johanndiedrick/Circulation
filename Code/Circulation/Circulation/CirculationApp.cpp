@@ -134,13 +134,17 @@ void CirculationApp::update() {
     if(D->rotation == 360){
         D->rotation = 0;
     }
+        
+  
     
+    //rotate circle
     if(lastKeyDown=='o'){
-        printf("rotating...");
+        printf("Rotating Clockwise...");
         rotationValue++;
     }
     
     if(lastKeyDown=='p'){
+        printf("Rotating Counterclockwise...");
         rotationValue--;
     }
     
@@ -149,6 +153,8 @@ void CirculationApp::update() {
     B->rotation =  rotationValue;
     C->rotation =  rotationValue;
     D->rotation =  rotationValue;
+   
+
 
     
 }

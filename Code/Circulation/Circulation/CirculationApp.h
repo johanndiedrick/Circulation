@@ -25,7 +25,8 @@ public:
     poShape2D* D;
     
     int rotationValue;
-    
+    int radius;
     char lastKeyDown;
+    
 };
 
