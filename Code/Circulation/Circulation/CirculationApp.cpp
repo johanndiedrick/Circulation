@@ -8,6 +8,7 @@
 #include "poSimpleDrawing.h"
 #include "poShapeBasics2D.h"
 #include "poTextBox.h"
+#include "Title.h"
 
 #include <boost/format.hpp>
 #include <boost/algorithm/string.hpp>
@@ -32,9 +33,9 @@ CirculationApp::CirculationApp() {
     //get first child of root, which should be row
     poXMLNode nodeRow = rootNode.getFirstChild();
     poXMLNode nodeTitle = nodeRow.getFirstChild();
-    std::string title = nodeTitle.getInnerString();
+    std::string xmlTitle = nodeTitle.getInnerString();
     
-    printf("%s\n", title.c_str());
+    printf("%s\n", xmlTitle.c_str());
     
     
     //add four poShape objects for our circle
@@ -100,17 +101,20 @@ CirculationApp::CirculationApp() {
     D->rotation =  0;
     addChild(D);
     
+    Title* newTitle = new Title(xmlTitle);
+    A->addChild(newTitle);
     
-    
-    poTextBox* text = new poTextBox(50, 20); // create potextbox with a given size
-    text->setText( title );						// Set the text based on the value of the node
-    text->setFont( poGetFont("Helvetica", "Regular") );
-    text->setTextSize(13);
-    text->textColor = poColor::white;
-    text->doLayout();
-    text->position.set(150, -150, 0);
-    A->addChild(text);
+//    poTextBox* text = new poTextBox(50, 20); // create potextbox with a given size
+//    text->setText( title );						// Set the text based on the value of the node
+//    text->setFont( poGetFont("Helvetica", "Regular") );
+//    text->setTextSize(13);
+//    text->textColor = poColor::white;
+//    text->doLayout();
+//    text->position.set(150, -150, 0);
+//    A->addChild(text);
 
+    
+    
     int rotationValue = 0;
 
 }
@@ -139,12 +143,12 @@ void CirculationApp::update() {
     
     //rotate circle
     if(lastKeyDown=='o'){
-        printf("Rotating Clockwise...");
+        printf("Rotating Clockwise...\n");
         rotationValue++;
     }
     
     if(lastKeyDown=='p'){
-        printf("Rotating Counterclockwise...");
+        printf("Rotating Counterclockwise...\n");
         rotationValue--;
     }
     
