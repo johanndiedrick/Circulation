@@ -23,7 +23,11 @@ Title::Title(std::string _text){
     titleText->setTextSize(13);
     titleText->textColor = poColor::white;
     titleText->doLayout();
-    titleText->position.set(150, -150, 0);
+    
+    //give our text a random position
+    float posX = poRand(0,300);
+    float posY = poRand(-300,0);
+    titleText->position.set(posX, posY, 0);
     addChild(titleText);
 
 }

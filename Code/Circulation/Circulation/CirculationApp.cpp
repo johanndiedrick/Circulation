@@ -28,7 +28,7 @@ CirculationApp::CirculationApp() {
     lastKeyDown = 'x';
     
     //load xml document
-    poXMLDocument doc = poXMLDocument("library.xml");
+    poXMLDocument doc = poXMLDocument("test.xml");
     
     //get root node
     poXMLNode rootNode = doc.getRootNode();
@@ -104,16 +104,16 @@ CirculationApp::CirculationApp() {
         
         poPoint P = poPoint(x, y);
         D->addPoint(P);
-    }
+    }   
     
     D->fillColor = poColor::red;
     D->position.set(getWindowWidth()/2, getWindowHeight()/2, 0);
     D->rotation =  0;
     addChild(D);
     
-   //for (int i=1; i<10; i++){
-        poXMLNode node_Row = rootNode.getChild(5);     //get first child of root, which should be a row
-    poXMLNode node_Title = node_Row.getChild("Title");
+   for (int i=0; i<rootNode.getNumChildren(); i++){
+        poXMLNode node_Row = rootNode.getChild(i);     //get first child of root, which should be a row
+    poXMLNode node_Title = node_Row.getChild("title");
         
     std::string xml_Title = node_Title.getInnerString();
     printf("%s\n", xml_Title.c_str());
@@ -122,7 +122,7 @@ CirculationApp::CirculationApp() {
         
         // Title* staticTitle = new Title(xmlTitle);
         // A->addChild(staticTitle);
-  //  }
+}
     
 //    poTextBox* text = new poTextBox(50, 20); // create potextbox with a given size
 //    text->setText( title );						// Set the text based on the value of the node
