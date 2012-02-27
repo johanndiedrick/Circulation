@@ -33,8 +33,10 @@ CirculationApp::CirculationApp() {
     //get root node
     poXMLNode rootNode = doc.getRootNode();
    
-    //get first child of root, which should be row
-    poXMLNode nodeRow = rootNode.getFirstChild();
+    int numChildrenOfRoot = rootNode.getNumChildren(); // number of rows (which is number of titles
+    
+    poXMLNode nodeRow = rootNode.getFirstChild();     //get first child of root, which should be a row
+
     
     //get child in row calle "Title"
     poXMLNode nodeTitle = nodeRow.getChild("Title");
@@ -109,8 +111,18 @@ CirculationApp::CirculationApp() {
     D->rotation =  0;
     addChild(D);
     
-    Title* newTitle = new Title(xmlTitle);
-    A->addChild(newTitle);
+   //for (int i=1; i<10; i++){
+        poXMLNode node_Row = rootNode.getChild(5);     //get first child of root, which should be a row
+    poXMLNode node_Title = node_Row.getChild("Title");
+        
+    std::string xml_Title = node_Title.getInnerString();
+    printf("%s\n", xml_Title.c_str());
+        Title* newTitle = new Title(xml_Title);
+        A->addChild(newTitle);
+        
+        // Title* staticTitle = new Title(xmlTitle);
+        // A->addChild(staticTitle);
+  //  }
     
 //    poTextBox* text = new poTextBox(50, 20); // create potextbox with a given size
 //    text->setText( title );						// Set the text based on the value of the node
@@ -125,7 +137,9 @@ CirculationApp::CirculationApp() {
     
     int rotationValue = 0;
     
-    printf("%i", numChildrenOfRow);
+    //printf("%i", numChildrenOfRow);
+    //printf("%i", numChildrenOfRoot);
+
 
 }
 
