@@ -23,6 +23,8 @@ CirculationApp::CirculationApp() {
     addEvent(PO_KEY_DOWN_EVENT, this);
     addEvent(PO_KEY_UP_EVENT, this);
     
+    
+    
     lastKeyDown = 'x';
     
     //load xml document
@@ -30,9 +32,15 @@ CirculationApp::CirculationApp() {
     
     //get root node
     poXMLNode rootNode = doc.getRootNode();
+   
     //get first child of root, which should be row
     poXMLNode nodeRow = rootNode.getFirstChild();
-    poXMLNode nodeTitle = nodeRow.getFirstChild();
+    
+    //get child in row calle "Title"
+    poXMLNode nodeTitle = nodeRow.getChild("Title");
+    
+    int numChildrenOfRow = nodeRow.getNumChildren();
+    
     std::string xmlTitle = nodeTitle.getInnerString();
     
     printf("%s\n", xmlTitle.c_str());
@@ -116,6 +124,8 @@ CirculationApp::CirculationApp() {
     
     
     int rotationValue = 0;
+    
+    printf("%i", numChildrenOfRow);
 
 }
 
