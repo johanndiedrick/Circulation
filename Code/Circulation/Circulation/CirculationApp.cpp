@@ -35,18 +35,6 @@ CirculationApp::CirculationApp() {
    
     int numChildrenOfRoot = rootNode.getNumChildren(); // number of rows (which is number of titles
     
-    poXMLNode nodeRow = rootNode.getFirstChild();     //get first child of root, which should be a row
-
-    
-    //get child in row calle "Title"
-    poXMLNode nodeTitle = nodeRow.getChild("Title");
-    
-    int numChildrenOfRow = nodeRow.getNumChildren();
-    
-    std::string xmlTitle = nodeTitle.getInnerString();
-    
-    printf("%s\n", xmlTitle.c_str());
-    
     
     //add four poShape objects for our circle
     
@@ -116,22 +104,11 @@ CirculationApp::CirculationApp() {
     poXMLNode node_Title = node_Row.getChild("title");
         
     std::string xml_Title = node_Title.getInnerString();
-    printf("%s\n", xml_Title.c_str());
+   // printf("%s\n", xml_Title.c_str());
         Title* newTitle = new Title(xml_Title);
         A->addChild(newTitle);
-        
-        // Title* staticTitle = new Title(xmlTitle);
-        // A->addChild(staticTitle);
 }
     
-//    poTextBox* text = new poTextBox(50, 20); // create potextbox with a given size
-//    text->setText( title );						// Set the text based on the value of the node
-//    text->setFont( poGetFont("Helvetica", "Regular") );
-//    text->setTextSize(13);
-//    text->textColor = poColor::white;
-//    text->doLayout();
-//    text->position.set(150, -150, 0);
-//    A->addChild(text);
 
     
     
@@ -139,6 +116,11 @@ CirculationApp::CirculationApp() {
     
     //printf("%i", numChildrenOfRow);
     //printf("%i", numChildrenOfRoot);
+    
+    if(A->pointInside(poPoint(100,100), true) == true){
+        printf("true!");
+    }else
+        printf("false :(");
 
 
 }
@@ -166,13 +148,13 @@ void CirculationApp::update() {
   
     
     //rotate circle
-    if(lastKeyDown=='o'){
-        printf("Rotating Clockwise...\n");
+    if(lastKeyDown=='p'){
+       // printf("Rotating Clockwise...\n");
         rotationValue++;
     }
     
-    if(lastKeyDown=='p'){
-        printf("Rotating Counterclockwise...\n");
+    if(lastKeyDown=='o'){
+      //  printf("Rotating Counterclockwise...\n");
         rotationValue--;
     }
     
