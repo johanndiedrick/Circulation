@@ -47,8 +47,8 @@ Particle::Particle() {
     //	shape->addEvent(PO_MOUSE_DOWN_INSIDE_EVENT, this, "particle_clicked");
     //	addChild(shape);
 	
-	float posX = poRand(100, 700);
-	float posY = poRand(200, 500);
+	float posX = poRand(0, 300);
+	float posY = poRand(-300, 0);
 	
 	position.set(posX, posY, 0);
 	
@@ -74,8 +74,8 @@ void Particle::update() {
 	
 	position += velocity;
 	
-	if( position.x > 750 || position.x < 50 ) velocity.x *= -1;
-	if( position.y > 550 || position.y < 150 ) velocity.y *= -1;
+	if( position.x > 300 || position.x < 0 ) velocity.x *= -1;
+	if( position.y > 0 || position.y < -300 ) velocity.y *= -1;
 	
 	rotation += rotationSpeed;
 }

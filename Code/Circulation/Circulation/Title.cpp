@@ -21,7 +21,7 @@ Title::Title(std::string _text){
     titleText->setText( text );						// Set the text based on the value of the node
     titleText->setFont( poGetFont("Times New Roman", "Regular") );
     titleText->setTextSize(13);
-    titleText->textColor = poColor::white;
+    titleText->textColor = poColor::red;
     titleText->doLayout();
     
     //give our text a random position
