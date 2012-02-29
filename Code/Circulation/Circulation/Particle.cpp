@@ -47,10 +47,10 @@ Particle::Particle() {
     //	shape->addEvent(PO_MOUSE_DOWN_INSIDE_EVENT, this, "particle_clicked");
     //	addChild(shape);
 	
-	float posX = poRand(0, 300);
-	float posY = poRand(-300, 0);
-	
-	position.set(posX, posY, 0);
+//	float posX = poRand(0, 300);
+//	float posY = poRand(-300, 0);
+//	
+//	position.set(posX, posY, 0);
 	
 	float velX = poRand(-0.6, 0.6);
 	float velY = poRand(-0.6, 0.6);
@@ -66,7 +66,9 @@ Particle::Particle() {
 
 void Particle::draw()
 {
-    po::setColor( poColor::white );
+    poColor lavender;
+    lavender.set("#BF5FFF");
+    po::setColor(lavender);
     po::drawString( letter, poGetFont("Helvetica", "Regular") , poPoint(0,0), 12.0 ); 
 }
 
@@ -74,21 +76,15 @@ void Particle::update() {
 	
 	position += velocity;
 	
-	if( position.x > 300 || position.x < 0 ) velocity.x *= -1;
-	if( position.y > 0 || position.y < -300 ) velocity.y *= -1;
+//	if( position.x > 300 || position.x < 0 ) velocity.x *= -1;
+//	if( position.y > 0 || position.y < -300 ) velocity.y *= -1;
+    
+    if( position.x > 300 || position.x < -300 ) velocity.x *= -1;
+	if( position.y > 300 || position.y < -300 ) velocity.y *= -1;
 	
 	rotation += rotationSpeed;
 }
 
 void Particle::eventHandler(poEvent *event) {
-	
-	if( event->message == "particle_clicked" ) {
 		
-		if( shape->scaleTween.isRunning() )
-			return;
-		
-		shape->scaleTween.set( poPoint(2, 2, 1) );
-		shape->scaleTween.start();
-	}
-	
 }

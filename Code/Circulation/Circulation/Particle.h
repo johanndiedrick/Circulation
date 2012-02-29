@@ -21,13 +21,13 @@ public:
 	virtual void update();
 	virtual void eventHandler(poEvent* event);
 	
-	poShape2D* shape;
 	poPoint	velocity;
 	float	rotationSpeed;
     
     poTextBox* A;
     
     char    letter[8];
+    
     
 };
 

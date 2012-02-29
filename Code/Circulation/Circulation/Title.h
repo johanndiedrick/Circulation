@@ -11,12 +11,14 @@
 
 #include "poObject.h"
 #include "poTextBox.h"
+#include <iostream>
 
 class Title : public poObject{
 public:
     Title();
     Title(std::string _text);
-    
+
+    virtual void draw();
     virtual void update();
     virtual void eventHandler(poEvent* event);
     
@@ -25,7 +27,6 @@ public:
     //things for movement
     poPoint velocity;
     float rotationSpeed;
-    
     
 };
 
