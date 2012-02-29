@@ -757,6 +757,7 @@ dependencies: \
   /pocode/libraries/pocode/include/poTextureAtlas.h \
   /pocode/libraries/pocode/include/poBinPacker.h \
   /Users/johanndiedrick/Documents/Tisch/Courses/Spatial\ Media/Assignments/Circulation/Code/Circulation/Circulation/Title.h \
+  /Users/johanndiedrick/Documents/Tisch/Courses/Spatial\ Media/Assignments/Circulation/Code/Circulation/Circulation/Particle.h \
   /pocode/libraries/Boost/boost_1_45_0/boost/format.hpp \
   /pocode/libraries/Boost/boost_1_45_0/boost/format/detail/compat_workarounds.hpp \
   /pocode/libraries/Boost/boost_1_45_0/boost/format/detail/config_macros.hpp \

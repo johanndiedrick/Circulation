@@ -9,6 +9,7 @@
 #include "poShapeBasics2D.h"
 #include "poTextBox.h"
 #include "Title.h"
+#include "Particle.h"
 
 #include <boost/format.hpp>
 #include <boost/algorithm/string.hpp>
@@ -121,6 +122,12 @@ CirculationApp::CirculationApp() {
         printf("true!");
     }else
         printf("false :(");
+    
+    //lets add some particles!
+    for(int i=0; i < 200; i++) {
+		Particle* P = new Particle();
+		A->addChild(P);
+	}
 
 
 }
@@ -131,7 +138,6 @@ CirculationApp::~CirculationApp() {
 
 // UPDATE. Called once per frame. Animate objects here.
 void CirculationApp::update() {
-    
     if(A->rotation == 360){
         A->rotation = 0;
     }

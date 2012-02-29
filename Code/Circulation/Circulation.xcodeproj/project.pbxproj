@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E28EBB814FE6BCF00CB51CB /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E28EBB714FE6BCF00CB51CB /* Particle.cpp */; };
 		8E4D9A7D14FACBF300A0BAC2 /* Title.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D9A7C14FACBF300A0BAC2 /* Title.cpp */; };
 		8E815A7C14F58E2A00DB30CD /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8E815A7B14F58E2A00DB30CD /* AppDelegate.mm */; };
 		8E815A7E14F58E2A00DB30CD /* en.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E815A7D14F58E2A00DB30CD /* en.strings */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E28EBB514FE6BA400CB51CB /* Particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Particle.h; sourceTree = "<group>"; };
+		8E28EBB714FE6BCF00CB51CB /* Particle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Particle.cpp; sourceTree = "<group>"; };
 		8E4D9A7C14FACBF300A0BAC2 /* Title.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Title.cpp; sourceTree = "<group>"; };
 		8E4D9A7F14FACC0800A0BAC2 /* Title.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Title.h; sourceTree = "<group>"; };
 		8E815A7314F58E2A00DB30CD /* Circulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Circulation.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +100,8 @@
 			children = (
 				8E815A8A14F58E2A00DB30CD /* CirculationApp.h */,
 				8E815A8B14F58E2A00DB30CD /* CirculationApp.cpp */,
+				8E28EBB514FE6BA400CB51CB /* Particle.h */,
+				8E28EBB714FE6BCF00CB51CB /* Particle.cpp */,
 				8E4D9A7C14FACBF300A0BAC2 /* Title.cpp */,
 				8E4D9A7F14FACC0800A0BAC2 /* Title.h */,
 				8E815A8D14F58E2A00DB30CD /* AppConfig.cpp */,
@@ -173,6 +178,7 @@
 				8E815A8C14F58E2A00DB30CD /* CirculationApp.cpp in Sources */,
 				8E815A8E14F58E2A00DB30CD /* AppConfig.cpp in Sources */,
 				8E4D9A7D14FACBF300A0BAC2 /* Title.cpp in Sources */,
+				8E28EBB814FE6BCF00CB51CB /* Particle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
