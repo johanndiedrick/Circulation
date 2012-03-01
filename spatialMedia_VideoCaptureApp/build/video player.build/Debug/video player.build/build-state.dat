@@ -1,0 +1,413 @@
+Tvideo player
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/Info.plist" platform/main.plist
+cProcessPCH++ /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-baangbthqwedlsejqaqzjytragfc/main.pch.pth platform/main.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-cdfxoaxfbkflurezjchudiivjhle/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-brutbwtnachisrawrwpaytdqevzm/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/AppDelegate.o" "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/../platform/AppDelegate.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/main.o" "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/../platform/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/poOpenGLView.o" "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/../platform/poOpenGLView.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/video_playerApp.o" "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/video_playerApp.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/AppConfig.o" "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/AppConfig.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/poVideoPlayer.o" "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/poVideoPlayer.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/poVideoCapture.o" "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/poVideoCapture.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/smImage.o" "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/smImage.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/MacOS/video player" normal i386
+cCopyStringsFile "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/Resources/en.strings" "video player/../platform/en.strings"
+cCpResource platform/main.pch "build/Debug/video player.app/Contents/Resources/main.pch"
+cCompileXIB "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/../platform/main.xib"
+cTouch "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/video player.app"
+
+N/Developer/SDKs/MacOSX10.7.sdk
+c000000004E7AD70B00000000000000EE
+t1316673291
+s238
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/IOSurface.framework/IOSurface
+c000000004E7AD703000000000000A654
+t1316673283
+s42580
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/QTKit.framework/QTKit
+c000000004E7AD70400000000000758C4
+t1316673284
+s481476
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/QuickTime.framework/QuickTime
+c000000004E7AD7040000000000060F88
+t1316673284
+s397192
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/video player.app
+t2
+s0
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/Info.plist
+t2
+s0
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/MacOS/video player
+t2
+s0
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/Resources/en.strings
+t2
+s0
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/Resources/main.nib
+t2
+s0
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/Resources/main.pch
+t2
+s0
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/AppConfig.o
+t2
+s0
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/poOpenGLView.o
+t2
+s0
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/poVideoCapture.o
+t2
+s0
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/poVideoPlayer.o
+t2
+s0
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/smImage.o
+t2
+s0
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/video player.LinkFileList
+c000000004F4F92460000000000000625
+t1330614854
+s1573
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/video_playerApp.o
+t2
+s0
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/platform/main.pch
+c000000004F3C2EB20000000000000000
+t1329344178
+s0
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/../platform/AppDelegate.mm
+c000000004F3C2EB20000000000001E1D
+t1329344178
+s7709
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/../platform/en.strings
+c000000004F3C2EB2000000000000002D
+t1329344178
+s45
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/../platform/main.m
+c000000004F3C2EB20000000000000077
+t1329344178
+s119
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/../platform/main.xib
+c000000004F3C2EB20000000000006176
+t1329344178
+s24950
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/../platform/poOpenGLView.mm
+c000000004F456D6500000000000012F4
+t1329950053
+s4852
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/AppConfig.cpp
+c000000004F3C2EB20000000000000193
+t1329344178
+s403
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/poVideoCapture.mm
+c000000004F4572AD00000000000015CC
+t1329951405
+s5580
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/poVideoPlayer.mm
+c000000004F456CE90000000000001763
+t1329949929
+s5987
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/smImage.cpp
+c000000004F49088D0000000000000CFF
+t1330186381
+s3327
+
+N/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/video_playerApp.mm
+c000000004F4908FE00000000000005FB
+t1330186494
+s1531
+
+N/var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-baangbthqwedlsejqaqzjytragfc/main.pch.pth
+t2
+s0
+
+N/var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-brutbwtnachisrawrwpaytdqevzm/main.pch.pth
+t2
+s0
+
+N/var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-cdfxoaxfbkflurezjchudiivjhle/main.pch.pth
+t2
+s0
+
+Nplatform/main.plist
+c000000004F3C2EB200000000000003E2
+t1329344178
+s994
+
+CBuild AST from "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/../platform/AppDelegate.mm"
+r0
+
+CBuild AST from "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/../platform/main.m"
+r0
+
+CBuild AST from "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/../platform/poOpenGLView.mm"
+r0
+
+CBuild AST from "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/AppConfig.cpp"
+r0
+
+CBuild AST from "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/poVideoCapture.mm"
+r0
+
+CBuild AST from "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/poVideoPlayer.mm"
+r0
+
+CBuild AST from "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/smImage.cpp"
+r0
+
+CBuild AST from "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/video_playerApp.mm"
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies5930ddc6c9ffb441^564924c7c9ffb441^---0#1#0#--18"Check dependencies36"A44267DB-0E85-4F83-A776-CB207668D67B-
+
+CCompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/AppConfig.o" "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/AppConfig.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s352307665.992840
+e352307671.335436
+r1
+xCompileC
+xbuild/video player.build/Debug/video player.build/Objects-normal/i386/AppConfig.o
+x/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/AppConfig.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"Compile /Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/AppConfig.cpp8b4efed1c9ffb441^27de55d7c9ffb441^---0#0#0#-19%DVTDocumentLocation2@159"file://localhost/Users/johanndiedrick/Documents/Tisch/Courses/Spatial%20Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video%20player/AppConfig.cpp0000000000000000^3407"CompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/AppConfig.o" "video player/AppConfig.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -DDEBUG -DTIXML_USE_STL -DBOOST_FILESYSTEM_VERSION=3 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-generated-files.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-own-target-headers.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-all-target-headers.hmap" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-project-headers.hmap" -iquote/pocode/libraries/pocode "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/include" -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources/i386" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources" "-F/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug" -include /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-brutbwtnachisrawrwpaytdqevzm/main.pch -MMD -MT dependencies -MF "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/AppConfig.d" -c "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/AppConfig.cpp" -o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/AppConfig.o"36"F71CC457-CCAE-42B5-ADD5-EF9D5BAFEA7C-
+
+CCompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/AppDelegate.o" "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/../platform/AppDelegate.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s352307655.514483
+e352307665.079804
+r1
+xCompileC
+xbuild/video player.build/Debug/video player.build/Objects-normal/i386/AppDelegate.o
+x/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/../platform/AppDelegate.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection160"Compile /Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/../platform/AppDelegate.mmb6da83c7c9ffb441^a37914d1c9ffb441^---0#0#0#-19%DVTDocumentLocation2@172"file://localhost/Users/johanndiedrick/Documents/Tisch/Courses/Spatial%20Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video%20player/../platform/AppDelegate.mm0000000000000000^3635"CompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/AppDelegate.o" "video player/../platform/AppDelegate.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -DDEBUG -DTIXML_USE_STL -DBOOST_FILESYSTEM_VERSION=3 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-generated-files.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-own-target-headers.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-all-target-headers.hmap" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-project-headers.hmap" -iquote/pocode/libraries/pocode "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/include" -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources/i386" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources" "-F/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug" -include /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-baangbthqwedlsejqaqzjytragfc/main.pch -MMD -MT dependencies -MF "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/AppDelegate.d" -c "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/../platform/AppDelegate.mm" -o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/AppDelegate.o"36"55C241BF-3F5F-4743-ABA6-A75D17261A5F-
+
+CCompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/main.o" "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/../platform/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s352307655.586954
+e352307657.735740
+r1
+xCompileC
+xbuild/video player.build/Debug/video player.build/Objects-normal/i386/main.o
+x/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/../platform/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection152"Compile /Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/../platform/main.m276996c7c9ffb441^6858bcc9c9ffb441^---0#0#0#-19%DVTDocumentLocation2@164"file://localhost/Users/johanndiedrick/Documents/Tisch/Courses/Spatial%20Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video%20player/../platform/main.m0000000000000000^3534"CompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/main.o" "video player/../platform/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -DTIXML_USE_STL -DDEBUG -DTIXML_USE_STL -DBOOST_FILESYSTEM_VERSION=3 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-generated-files.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-own-target-headers.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-all-target-headers.hmap" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-project-headers.hmap" -iquote/pocode/libraries/pocode "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/include" -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources/i386" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources" "-F/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug" -include /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-cdfxoaxfbkflurezjchudiivjhle/main.pch -MMD -MT dependencies -MF "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/main.d" -c "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/../platform/main.m" -o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/main.o"36"E88D4F00-5C46-45CE-9B8D-842D297996EC-
+
+CCompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/poOpenGLView.o" "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/../platform/poOpenGLView.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s352307657.738096
+e352307665.991504
+r1
+xCompileC
+xbuild/video player.build/Debug/video player.build/Objects-normal/i386/poOpenGLView.o
+x/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/../platform/poOpenGLView.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection161"Compile /Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/../platform/poOpenGLView.mm8f18bdc9c9ffb441^28d2fdd1c9ffb441^---0#0#0#-19%DVTDocumentLocation2@173"file://localhost/Users/johanndiedrick/Documents/Tisch/Courses/Spatial%20Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video%20player/../platform/poOpenGLView.mm0000000000000000^3640"CompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/poOpenGLView.o" "video player/../platform/poOpenGLView.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -DDEBUG -DTIXML_USE_STL -DBOOST_FILESYSTEM_VERSION=3 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-generated-files.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-own-target-headers.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-all-target-headers.hmap" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-project-headers.hmap" -iquote/pocode/libraries/pocode "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/include" -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources/i386" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources" "-F/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug" -include /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-baangbthqwedlsejqaqzjytragfc/main.pch -MMD -MT dependencies -MF "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/poOpenGLView.d" -c "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/../platform/poOpenGLView.mm" -o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/poOpenGLView.o"36"C548CD2C-A0CA-469C-8456-36FB045A59A8-
+
+CCompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/poVideoCapture.o" "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/poVideoCapture.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s352307671.338175
+e352307679.103817
+r1
+xCompileC
+xbuild/video player.build/Debug/video player.build/Objects-normal/i386/poVideoCapture.o
+x/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/poVideoCapture.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection151"Compile /Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/poVideoCapture.mm94bc56d7c9ffb441^e6921adfc9ffb441^---0#0#0#-19%DVTDocumentLocation2@163"file://localhost/Users/johanndiedrick/Documents/Tisch/Courses/Spatial%20Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video%20player/poVideoCapture.mm0000000000000000^3626"CompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/poVideoCapture.o" "video player/poVideoCapture.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -DDEBUG -DTIXML_USE_STL -DBOOST_FILESYSTEM_VERSION=3 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-generated-files.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-own-target-headers.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-all-target-headers.hmap" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-project-headers.hmap" -iquote/pocode/libraries/pocode "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/include" -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources/i386" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources" "-F/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug" -include /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-baangbthqwedlsejqaqzjytragfc/main.pch -MMD -MT dependencies -MF "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/poVideoCapture.d" -c "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/poVideoCapture.mm" -o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/poVideoCapture.o"36"F853B27F-22B4-41B6-B9A4-07805E5FD8C2-
+
+CCompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/poVideoPlayer.o" "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/poVideoPlayer.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s352307670.403133
+e352307679.225102
+r1
+xCompileC
+xbuild/video player.build/Debug/video player.build/Objects-normal/i386/poVideoPlayer.o
+x/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/poVideoPlayer.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection150"Compile /Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/poVideoPlayer.mm8a5967d6c9ffb441^a19f39dfc9ffb441^---0#0#0#-19%DVTDocumentLocation2@162"file://localhost/Users/johanndiedrick/Documents/Tisch/Courses/Spatial%20Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video%20player/poVideoPlayer.mm0000000000000000^3621"CompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/poVideoPlayer.o" "video player/poVideoPlayer.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -DDEBUG -DTIXML_USE_STL -DBOOST_FILESYSTEM_VERSION=3 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-generated-files.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-own-target-headers.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-all-target-headers.hmap" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-project-headers.hmap" -iquote/pocode/libraries/pocode "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/include" -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources/i386" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources" "-F/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug" -include /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-baangbthqwedlsejqaqzjytragfc/main.pch -MMD -MT dependencies -MF "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/poVideoPlayer.d" -c "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/poVideoPlayer.mm" -o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/poVideoPlayer.o"36"6530A8E1-A025-4B95-9553-59B81590BD4E-
+
+CCompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/smImage.o" "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/smImage.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s352307679.105186
+e352307682.002258
+r1
+xCompileC
+xbuild/video player.build/Debug/video player.build/Objects-normal/i386/smImage.o
+x/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/smImage.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection145"Compile /Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/smImage.cpp34101bdfc9ffb441^a79300e2c9ffb441^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/johanndiedrick/Documents/Tisch/Courses/Spatial%20Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video%20player/smImage.cpp0000000000000000^3397"CompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/smImage.o" "video player/smImage.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -DDEBUG -DTIXML_USE_STL -DBOOST_FILESYSTEM_VERSION=3 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-generated-files.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-own-target-headers.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-all-target-headers.hmap" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-project-headers.hmap" -iquote/pocode/libraries/pocode "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/include" -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources/i386" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources" "-F/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug" -include /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-brutbwtnachisrawrwpaytdqevzm/main.pch -MMD -MT dependencies -MF "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/smImage.d" -c "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/smImage.cpp" -o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/smImage.o"36"B06A237C-B41C-474A-92D8-3AAE39406D89-
+
+CCompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/video_playerApp.o" "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/video_playerApp.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s352307665.081162
+e352307670.401267
+r1
+xCompileC
+xbuild/video player.build/Debug/video player.build/Objects-normal/i386/video_playerApp.o
+x/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/video_playerApp.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection152"Compile /Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/video_playerApp.mm10ec14d1c9ffb441^73b866d6c9ffb441^---0#0#0#-19%DVTDocumentLocation2@164"file://localhost/Users/johanndiedrick/Documents/Tisch/Courses/Spatial%20Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video%20player/video_playerApp.mm0000000000000000^3631"CompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/video_playerApp.o" "video player/video_playerApp.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -DDEBUG -DTIXML_USE_STL -DBOOST_FILESYSTEM_VERSION=3 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-generated-files.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-own-target-headers.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-all-target-headers.hmap" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-project-headers.hmap" -iquote/pocode/libraries/pocode "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/include" -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources/i386" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources" "-F/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug" -include /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-baangbthqwedlsejqaqzjytragfc/main.pch -MMD -MT dependencies -MF "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/video_playerApp.d" -c "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/video_playerApp.mm" -o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/video_playerApp.o"36"7E3C65F1-A384-4B7E-A7DE-C6C5F5C62C87-
+
+CCompileXIB "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/../platform/main.xib"
+s352307684.419393
+e352307684.512907
+r1
+xCompileXIB
+x/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/../platform/main.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection156"Compiling /Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/../platform/main.xibda716be4c9ffb441^9c4d83e4c9ffb441^---0#0#0#-19%DVTDocumentLocation2@166"file://localhost/Users/johanndiedrick/Documents/Tisch/Courses/Spatial%20Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video%20player/../platform/main.xib0000000000000000^691"CompileXIB "video player/../platform/main.xib"    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/Resources/main.nib" "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video player/../platform/main.xib" --sdk /Developer/SDKs/MacOSX10.7.sdk36"E9B3C666-5C4E-4C81-BBCD-96A3D8C37E3A-
+
+CCopyStringsFile "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/Resources/en.strings" "video player/../platform/en.strings"
+s352307684.413779
+e352307684.419994
+r1
+xCopyStringsFile
+x/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/Resources/en.strings
+xvideo player/../platform/en.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy video player/../platform/en.stringscc096ae4c9ffb441^99846be4c9ffb441^---0#0#0#-19%DVTDocumentLocation2@168"file://localhost/Users/johanndiedrick/Documents/Tisch/Courses/Spatial%20Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/video%20player/../platform/en.strings0000000000000000^531"CopyStringsFile "build/Debug/video player.app/Contents/Resources/en.strings" "video player/../platform/en.strings"    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/Resources" -- "video player/../platform/en.strings"36"E822467F-E47A-4D4B-BAB7-47489ADFEE08-
+
+CCpResource platform/main.pch "build/Debug/video player.app/Contents/Resources/main.pch"
+s352307684.414499
+e352307684.418016
+r1
+xCpResource
+xplatform/main.pch
+xbuild/Debug/video player.app/Contents/Resources/main.pch
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug/video player.app/Contents/Resources/main.pch55306ae4c9ffb441^1c0a6be4c9ffb441^---0#0#0#-19%DVTDocumentLocation2@189"file://localhost/Users/johanndiedrick/Documents/Tisch/Courses/Spatial%20Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/video%20player.app/Contents/Resources/main.pch00f4040fddffdf42^618"CpResource platform/main.pch "build/Debug/video player.app/Contents/Resources/main.pch"    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/platform/main.pch" "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/Resources"36"9B08F677-BB48-4F49-84D1-259B1FCAEF20-
+
+CLd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/MacOS/video player" normal i386
+s352307682.009193
+e352307684.404686
+r1
+xLd
+x/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/MacOS/video player
+xnormal
+xi386
+old: warning: direct access in __ZN5boost6system12system_errorD2Ev to global weak symbol __ZTVN5boost6system12system_errorE means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection174"Link /Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/MacOS/video playerce7102e2c9ffb441^289a67e4c9ffb441^-283"ld: warning: direct access in __ZN5boost6system12system_errorD2Ev to global weak symbol __ZTVN5boost6system12system_errorE means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.1(21%IDEActivityLogMessage2@269"Direct access in __ZN5boost6system12system_errorD2Ev to global weak symbol __ZTVN5boost6system12system_errorE means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-352307684#0#283#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--1229"Ld "build/Debug/video player.app/Contents/MacOS/video player" normal i386    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang++ -arch i386 -isysroot /Developer/SDKs/MacOSX10.7.sdk "-L/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug" -L/pocode/libraries/pocode "-F/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug" -filelist "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/video player.LinkFileList" -mmacosx-version-min=10.6 -lpocode_d /usr/lib/libsqlite3.0.dylib -framework Cocoa -framework ApplicationServices -framework OpenGL -framework CoreVideo -framework QTKit -framework IOSurface -framework QTKit -framework QuickTime -o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/MacOS/video player"36"C4280AFA-F606-4ADC-9F8F-12734EF78B9C-
+
+CProcessInfoPlistFile "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/Info.plist" platform/main.plist
+s352307655.152169
+e352307655.241243
+r1
+xProcessInfoPlistFile
+x/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/Info.plist
+xplatform/main.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection27"Process platform/main.plist2f6c35c7c9ffb441^6bd23dc7c9ffb441^---0#0#0#-19%DVTDocumentLocation2@150"file://localhost/Users/johanndiedrick/Documents/Tisch/Courses/Spatial%20Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/platform/main.plist0000000000000000^641"ProcessInfoPlistFile "build/Debug/video player.app/Contents/Info.plist" platform/main.plist    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp"    builtin-infoPlistUtility platform/main.plist -genpkginfo "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/Info.plist"36"C6F2F85F-4BED-4560-B499-DAF3FE60AC7B-
+
+CProcessPCH /Users/johanndiedrick/Library/Developer/Xcode/DerivedData/video_player-daurgzutuwbfsngqohpvlhmwpyar/Index/PrecompiledHeaders/main-aziumvxlbdojltabmuuonwvuqvhy_ast/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-cdfxoaxfbkflurezjchudiivjhle/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s352307655.253598
+e352307655.507690
+r1
+xProcessPCH
+x/var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-cdfxoaxfbkflurezjchudiivjhle/main.pch.pth
+xplatform/main.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile platform/main.pchbb0a41c7c9ffb441^ff0582c7c9ffb441^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/johanndiedrick/Documents/Tisch/Courses/Spatial%20Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/platform/main.pch0000000000000000^3325"ProcessPCH /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-cdfxoaxfbkflurezjchudiivjhle/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -DTIXML_USE_STL -DDEBUG -DTIXML_USE_STL -DBOOST_FILESYSTEM_VERSION=3 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-generated-files.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-own-target-headers.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-all-target-headers.hmap" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-project-headers.hmap" -iquote/pocode/libraries/pocode "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/include" -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources/i386" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources" "-F/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug" -c "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/platform/main.pch" -o /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-cdfxoaxfbkflurezjchudiivjhle/main.pch.pth -MMD -MT dependencies -MF /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-cdfxoaxfbkflurezjchudiivjhle/main.pch.d36"FD059CB8-3522-428B-9059-A7A9D564CEFA-
+
+CProcessPCH++ /Users/johanndiedrick/Library/Developer/Xcode/DerivedData/video_player-daurgzutuwbfsngqohpvlhmwpyar/Index/PrecompiledHeaders/main-dhzbqcvvtvwovxchvzhxdjdmkylf_ast/main.pch.pth platform/main.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /Users/johanndiedrick/Library/Developer/Xcode/DerivedData/video_player-daurgzutuwbfsngqohpvlhmwpyar/Index/PrecompiledHeaders/main-fcdawohdiqgardediioodiycnryn_ast/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-baangbthqwedlsejqaqzjytragfc/main.pch.pth platform/main.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s352307655.252604
+e352307655.505940
+r1
+xProcessPCH++
+x/var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-baangbthqwedlsejqaqzjytragfc/main.pch.pth
+xplatform/main.pch
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile platform/main.pchf3cb40c7c9ffb441^78cf81c7c9ffb441^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/johanndiedrick/Documents/Tisch/Courses/Spatial%20Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/platform/main.pch0000000000000000^3391"ProcessPCH++ /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-baangbthqwedlsejqaqzjytragfc/main.pch.pth platform/main.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -DDEBUG -DTIXML_USE_STL -DBOOST_FILESYSTEM_VERSION=3 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-generated-files.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-own-target-headers.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-all-target-headers.hmap" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-project-headers.hmap" -iquote/pocode/libraries/pocode "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/include" -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources/i386" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources" "-F/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug" -c "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/platform/main.pch" -o /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-baangbthqwedlsejqaqzjytragfc/main.pch.pth -MMD -MT dependencies -MF /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-baangbthqwedlsejqaqzjytragfc/main.pch.d36"B51DE2C0-C5B7-4420-AC70-69959247ED28-
+
+CProcessPCH++ /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-brutbwtnachisrawrwpaytdqevzm/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s352307655.508779
+e352307655.585487
+r1
+xProcessPCH++
+x/var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-brutbwtnachisrawrwpaytdqevzm/main.pch.pth
+xplatform/main.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile platform/main.pch465e82c7c9ffb441^03ee95c7c9ffb441^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/johanndiedrick/Documents/Tisch/Courses/Spatial%20Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/platform/main.pch0000000000000000^3195"ProcessPCH++ /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-brutbwtnachisrawrwpaytdqevzm/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -DDEBUG -DTIXML_USE_STL -DBOOST_FILESYSTEM_VERSION=3 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-generated-files.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-own-target-headers.hmap" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-all-target-headers.hmap" -iquote "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-project-headers.hmap" -iquote/pocode/libraries/pocode "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/include" -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources/i386" "-I/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources" "-F/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug" -c "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/platform/main.pch" -o /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-brutbwtnachisrawrwpaytdqevzm/main.pch.pth -MMD -MT dependencies -MF /var/folders/lm/5bkc7gl14t37_2bx2q2b4qc40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/main-brutbwtnachisrawrwpaytdqevzm/main.pch.d36"3C1535BE-7828-4BE8-844C-E08D47B1E5EE-
+
+CTouch "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/video player.app"
+s352307684.520849
+e352307684.553581
+r1
+xTouch
+x/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/video player.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"Touch /Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/video player.app776785e4c9ffb441^c5c58de4c9ffb441^---0#0#0#--325"Touch "build/Debug/video player.app"    cd "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp"    /usr/bin/touch -c "/Users/johanndiedrick/Documents/Tisch/Courses/Spatial Media/Assignments/Circulation/spatialMedia_VideoCaptureApp/build/Debug/video player.app"36"A577765C-3362-491D-9E62-7F8B3D2D0C27-
+

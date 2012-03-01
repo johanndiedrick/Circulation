@@ -12,6 +12,7 @@
 
 Particle::Particle() {
 	
+    positiveQuadrant = 1;
 	float defaultScale = poRand(0.4, 1);
     
     letter[0] = 'A';
@@ -79,9 +80,18 @@ void Particle::update() {
 //	if( position.x > 300 || position.x < 0 ) velocity.x *= -1;
 //	if( position.y > 0 || position.y < -300 ) velocity.y *= -1;
     
-    if( position.x > 300 || position.x < -300 ) velocity.x *= -1;
-	if( position.y > 300 || position.y < -300 ) velocity.y *= -1;
-	
+    //if( (position.x > 300 || position.x < 0) || (position.x < -300 || position.x > 0) ) velocity.x *= -1;//doesnt work :/
+	//if( (position.y > 0 || position.y < -300) || (position.y > 300 || position.y < 0) ) velocity.y *= -1;//doesnt work :/
+    
+    if(positiveQuadrant==1){
+    if( position.x > 300 || position.x < 0 ) velocity.x *= -1;
+	if( position.y > 0 || position.y < -300) velocity.y *= -1;
+	}
+    
+    if(positiveQuadrant==0){
+    if( position.x > 0 || position.x < -300 ) velocity.x *= -1;
+    if( position.y > 300 || position.y < 0) velocity.y *= -1;
+    }
 	rotation += rotationSpeed;
 }
 

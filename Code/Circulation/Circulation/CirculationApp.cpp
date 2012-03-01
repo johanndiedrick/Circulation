@@ -14,7 +14,9 @@
 #include <boost/format.hpp>
 #include <boost/algorithm/string.hpp>
 #include <boost/algorithm/string/regex.hpp>
+#include <cmath>
 using namespace boost;
+using namespace std;
 
 
 // APP CONSTRUCTOR. Create all objects here.
@@ -23,8 +25,10 @@ CirculationApp::CirculationApp() {
     
     addEvent(PO_KEY_DOWN_EVENT, this);
     addEvent(PO_KEY_UP_EVENT, this);
+    addEvent(PO_MOUSE_MOVE_EVENT, this);
 
-    
+    int rotationValue = 0;
+
     lastKeyDown = 'x';
     
     //load xml document
@@ -111,6 +115,8 @@ CirculationApp::CirculationApp() {
     addChild(D);
     
     //lets add some titles, based on the number of title entries we have in the xml file!
+    
+    //lets add some titles into the top right (positive) quadrant
    for (int i=0; i<rootNode.getNumChildren(); i++){
         poXMLNode node_Row = rootNode.getChild(i);     //get first child of root, which should be a row
     poXMLNode node_Title = node_Row.getChild("title");
@@ -118,13 +124,13 @@ CirculationApp::CirculationApp() {
     std::string xml_Title = node_Title.getInnerString();
    // printf("%s\n", xml_Title.c_str());
         Title* newTitle = new Title(xml_Title);
-       float posX = poRand(0,200);
-       float posY = poRand(-200,0);
+       float posX = poRand(0,300);
+       float posY = poRand(-300,0);
        newTitle->position.set(posX, posY, 0);
         A->addChild(newTitle); // add titles to upper right
 }
     
-    
+    //lets add some titles to the bottom left (negative) quadrant
     for (int i=0; i<rootNode.getNumChildren(); i++){
         poXMLNode node_Row = rootNode.getChild(i);     //get first child of root, which should be a row
         poXMLNode node_Title = node_Row.getChild("title");
@@ -132,25 +138,25 @@ CirculationApp::CirculationApp() {
         std::string xml_Title = node_Title.getInnerString();
         // printf("%s\n", xml_Title.c_str());
         Title* newTitle = new Title(xml_Title);
-        float posX = poRand(-200,0);
-        float posY = poRand(0,200);
+        newTitle->positiveQuadrant = 0;
+        float posX = poRand(-300,0);
+        float posY = poRand(0,300);
         newTitle->position.set(posX, posY, 0);
         C->addChild(newTitle); //add titles to bottom left
     }
 
     
     
-    int rotationValue = 0;
     
     //printf("%i", numChildrenOfRow);
     //printf("%i", numChildrenOfRoot);
     
-    if(A->pointInside(poPoint(100,100), true) == true){
+    if(pointInside(poPoint(600,300)) == true){
         printf("true!");
     }else
         printf("false :(");
     
-    //lets add some alphabet particles!
+    //lets add some alphabet particles in the upper right (positive) quadrant!
     for(int i=0; i < 200; i++) {
 		Particle* P = new Particle();
         float posX = poRand(0, 300);
@@ -160,12 +166,12 @@ CirculationApp::CirculationApp() {
 		A->addChild(P);
 	}
     
-    //lets add some alphabet particles!
+    //lets add some alphabet particles in the lower left (negative) quadrant!
     for(int i=0; i < 200; i++) {
 		Particle* P = new Particle();
         float posX = poRand(-300, 0);
         float posY = poRand(0, 300);
-        
+        P->positiveQuadrant = 0;
         P->position.set(posX, posY, 0);
 		C->addChild(P);
 	}
@@ -181,21 +187,7 @@ CirculationApp::~CirculationApp() {
 
 // UPDATE. Called once per frame. Animate objects here.
 void CirculationApp::update() {
-    if(A->rotation == 360){
-        A->rotation = 0;
-    }
-    if(B->rotation == 360){
-        B->rotation = 0;
-    }
-    if(C->rotation == 360){
-        C->rotation = 0;
-    }
-    if(D->rotation == 360){
-        D->rotation = 0;
-    }
-        
-  
-    
+
     //rotate circle
     if(lastKeyDown=='p'){
        // printf("Rotating Clockwise...\n");
@@ -207,15 +199,44 @@ void CirculationApp::update() {
         rotationValue--;
     }
     
+    rotationValue = abs(rotationValue);
+    rotationValue = rotationValue%360;
     
-	A->rotation =  rotationValue;
+	A->rotation =  rotationValue ;
     B->rotation =  rotationValue;
-    C->rotation =  rotationValue;
-    D->rotation =  rotationValue;
+    C->rotation =  rotationValue ;
+    D->rotation =  rotationValue ;
    
-
-
+  //  cout << A->rotation << "\n";
+//    if (0 < rotationValue < 45 || 136 < rotationValue< 225 || 315 < rotationValue < 360 ){
+//        printf("open\n");
+//      //  cout << "open!" << "rotation angle: " << rotationValue << "\n"; 
+//    }else
+//        printf("closed\n");
     
+    
+    if ( rotationValue < 45 || (rotationValue >136 && rotationValue<225) || (rotationValue>315 && rotationValue < 360)  ){
+        printf("\n open %i", rotationValue);
+        //  cout << "open!" << "rotation angle: " << rotationValue << "\n"; 
+    }else
+        printf("\n closed %i", rotationValue);
+    
+    
+        //if(46 <rotationValue < 135){
+        //cout << "closed!" << "rotation angle: " << rotationValue << "\n"; 
+    //else
+    
+//    if (136 < rotationValue< 225){
+//        cout << "open!" << "rotation angle: " << rotationValue << "\n"; ;
+//    }else
+//    if(226 < rotationValue < 315){
+//        cout << "closed!" << "rotation angle: " << rotationValue << "\n"; ;
+////    }else
+//    if (315 < rotationValue < 360){
+//        cout << "open!" << "rotation angle: " << rotationValue << "\n"; ;
+//    }
+//   
+
 }
 
 // DRAW. Called once per frame. Draw objects here.
@@ -234,6 +255,10 @@ void CirculationApp::eventHandler(poEvent *event) {
     
    if(event->type==PO_KEY_UP_EVENT){
         lastKeyDown = 'x';
+    }
+    
+    if(event->type==PO_MOUSE_MOVE_EVENT){
+      // cout << "mouseX: " << event->globalPosition.x << " mouseY: " << event->globalPosition.y << "\n"; // print mouse position
     }
 	
 }

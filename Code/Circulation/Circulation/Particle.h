@@ -28,8 +28,12 @@ public:
     
     char    letter[8];
     
+    int positiveQuadrant;
+    int bounded; 
     
 };
 
+
+//boundary data class
 
 #endif

@@ -28,6 +28,9 @@ public:
     poPoint velocity;
     float rotationSpeed;
     
+    int positiveQuadrant;
+    int bounded; 
+    
 };
 
 

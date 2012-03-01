@@ -17,6 +17,8 @@ Title::Title(){
 
 Title::Title(std::string _text){
     
+    positiveQuadrant = 1;
+    
     float velX = poRand(-0.6, 0.6);
 	float velY = poRand(-0.6, 0.6);
 	
@@ -59,8 +61,16 @@ void Title::update(){
     
     position += velocity;
 	
-	if( position.x > 200 || position.x < 0 ) velocity.x *= -1;
-	if( position.y > 0 || position.y < -200 ) velocity.y *= -1;
+    
+    if(positiveQuadrant==1){
+        if( position.x > 300 || position.x < 0 ) velocity.x *= -1;
+        if( position.y > 0 || position.y < -300) velocity.y *= -1;
+	}
+    
+    if(positiveQuadrant==0){
+        if( position.x > 0 || position.x < -300 ) velocity.x *= -1;
+        if( position.y > 300 || position.y < 0) velocity.y *= -1;
+    }
 	
 	rotation += rotationSpeed;
 
