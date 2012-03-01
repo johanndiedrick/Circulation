@@ -27,7 +27,7 @@ CirculationApp::CirculationApp() {
     addEvent(PO_KEY_UP_EVENT, this);
     addEvent(PO_MOUSE_MOVE_EVENT, this);
 
-    int rotationValue = 0;
+    rotationValue = 0;
 
     lastKeyDown = 'x';
     
@@ -151,10 +151,7 @@ CirculationApp::CirculationApp() {
     //printf("%i", numChildrenOfRow);
     //printf("%i", numChildrenOfRoot);
     
-    if(pointInside(poPoint(600,300)) == true){
-        printf("true!");
-    }else
-        printf("false :(");
+  
     
     //lets add some alphabet particles in the upper right (positive) quadrant!
     for(int i=0; i < 200; i++) {
@@ -176,7 +173,8 @@ CirculationApp::CirculationApp() {
 		C->addChild(P);
 	}
     
-  
+
+    
 
 
 }
@@ -203,9 +201,16 @@ void CirculationApp::update() {
     rotationValue = rotationValue%360;
     
 	A->rotation =  rotationValue ;
-    B->rotation =  rotationValue;
+    B->rotation =  rotationValue ;
     C->rotation =  rotationValue ;
     D->rotation =  rotationValue ;
+    
+    
+    if(A->pointInside(poPoint(600,300), true) == true){
+        printf("true!");
+    }else
+        printf("false :(");
+    
    
   //  cout << A->rotation << "\n";
 //    if (0 < rotationValue < 45 || 136 < rotationValue< 225 || 315 < rotationValue < 360 ){
@@ -215,11 +220,11 @@ void CirculationApp::update() {
 //        printf("closed\n");
     
     
-    if ( rotationValue < 45 || (rotationValue >136 && rotationValue<225) || (rotationValue>315 && rotationValue < 360)  ){
-        printf("\n open %i", rotationValue);
+//    if ( rotationValue < 45 || (rotationValue >136 && rotationValue<225) || (rotationValue>315 && rotationValue < 360)  ){
+      //  printf("\n open %i", rotationValue);
         //  cout << "open!" << "rotation angle: " << rotationValue << "\n"; 
-    }else
-        printf("\n closed %i", rotationValue);
+//    }else
+      //  printf("\n closed %i", rotationValue);
     
     
         //if(46 <rotationValue < 135){
