@@ -18,6 +18,7 @@ Title::Title(){
 Title::Title(std::string _text){
     
     positiveQuadrant = 1;
+    bounded = 1;
     
     float velX = poRand(-0.6, 0.6);
 	float velY = poRand(-0.6, 0.6);
@@ -59,7 +60,6 @@ void Title::draw(){
 void Title::update(){
     //code to make titles move around, change rotation speed etc.
     
-    position += velocity;
 	
     
     if(positiveQuadrant==1){
@@ -72,6 +72,17 @@ void Title::update(){
         if( position.y > 300 || position.y < 0) velocity.y *= -1;
     }
 	
+    if(bounded==1){
+        position += velocity;
+    }
+    
+    if(bounded==0){
+        //move radially
+        position.x = position.x + position.x/(sqrt((position.x*position.x) + (position.y*position.y)));  
+        position.y = position.y + position.y/(sqrt((position.x*position.x) + (position.y*position.y)));
+        
+    }
+    
 	rotation += rotationSpeed;
 
     

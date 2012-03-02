@@ -13,45 +13,19 @@
 Particle::Particle() {
 	
     positiveQuadrant = 1;
+    bounded = 1;
 	float defaultScale = poRand(0.4, 1);
     
     letter[0] = 'A';
     letter[0] = 'A' + rand()%26;
     letter[1] = 0;
     
-    //    std::string alphabet;
-    //    
-    //    for (int i = 0; i < letter.length; i++) {
-    //        letters[i] = 0;
-    //    }
+    float posX = 0;
+	float posY = 0;
     
+    float hypotenuse=0;
     
-    
-    /*A = new poTextBox(10, 10);
-     A->setText("A");
-     A->setFont( poGetFont("Helvetica", "Regular") );
-     A->setTextSize(12);
-     A->textColor = poColor::grey;
-     A->doLayout();
-     A->drawBounds = false;
-     addChild( A );*/
-    
-	
-    //	shape = new poStarShape( 50, 50, 5, 10 );
-    //	shape->fillColor = poColor::orange;
-    //	shape->alpha = 0.75;
-    //	shape->setAlignment(PO_ALIGN_CENTER_CENTER);
-    //	shape->scale.set(defaultScale, defaultScale, 1);
-    //	shape->scaleTween.setTweenFunction(PO_TWEEN_QUAD_OUT_FUNC);
-    //	shape->scaleTween.setRepeat(PO_TWEEN_REPEAT_PINGPONG, 1);
-    //	shape->scaleTween.setDuration(1);
-    //	shape->addEvent(PO_MOUSE_DOWN_INSIDE_EVENT, this, "particle_clicked");
-    //	addChild(shape);
-	
-//	float posX = poRand(0, 300);
-//	float posY = poRand(-300, 0);
-//	
-//	position.set(posX, posY, 0);
+    //	position.set(posX, posY, 0);
 	
 	float velX = poRand(-0.6, 0.6);
 	float velY = poRand(-0.6, 0.6);
@@ -71,11 +45,15 @@ void Particle::draw()
     lavender.set("#BF5FFF");
     po::setColor(lavender);
     po::drawString( letter, poGetFont("Helvetica", "Regular") , poPoint(0,0), 12.0 ); 
+    
+   // po::setColor(poColor(1.0, 0.0, 0.0));
+    //po::drawStrokedRect(150,150,100,100); fun accident...
+    //po::drawFilledRect(600,300,10,10);
 }
 
 void Particle::update() {
 	
-	position += velocity;
+	
 	
 //	if( position.x > 300 || position.x < 0 ) velocity.x *= -1;
 //	if( position.y > 0 || position.y < -300 ) velocity.y *= -1;
@@ -92,6 +70,18 @@ void Particle::update() {
     if( position.x > 0 || position.x < -300 ) velocity.x *= -1;
     if( position.y > 300 || position.y < 0) velocity.y *= -1;
     }
+    
+    if(bounded==1){
+    position += velocity;
+    }
+    
+    if(bounded==0){
+        //move radially
+        position.x = position.x + position.x/(sqrt((position.x*position.x) + (position.y*position.y)));  
+        position.y = position.y + position.y/(sqrt((position.x*position.x) + (position.y*position.y)));
+        
+    }
+    
 	rotation += rotationSpeed;
 }
 

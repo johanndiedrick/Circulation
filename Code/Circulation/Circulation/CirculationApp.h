@@ -23,6 +23,7 @@ public:
     poShape2D* B;
     poShape2D* C;
     poShape2D* D;
+    poShape2D* transparent; 
     
     int rotationValue;
     int radius;

@@ -24,6 +24,11 @@ public:
 	poPoint	velocity;
 	float	rotationSpeed;
     
+    float posX;
+    float posY;
+    
+    float hypotenuse;
+    
     poTextBox* A;
     
     char    letter[8];

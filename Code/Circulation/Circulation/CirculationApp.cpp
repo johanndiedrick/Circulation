@@ -23,10 +23,12 @@ using namespace std;
 CirculationApp::CirculationApp() {
 	addModifier(new poCamera2D(poColor::white));
     
+    //add key down, key up and mouse move events
     addEvent(PO_KEY_DOWN_EVENT, this);
     addEvent(PO_KEY_UP_EVENT, this);
     addEvent(PO_MOUSE_MOVE_EVENT, this);
 
+   // initialize rotation value
     rotationValue = 0;
 
     lastKeyDown = 'x';
@@ -114,6 +116,15 @@ CirculationApp::CirculationApp() {
     D->rotation =  0;
     addChild(D);
     
+//    transparent = new poShape2D();
+//    transparent->addPoint(0,0);
+//    transparent->addPoint(getWindowWidth(), 0);
+//    transparent->addPoint(getWindowWidth(), getWindowHeight());
+//    transparent->addPoint(0, getWindowHeight());
+//    transparent->fillColor=poColor::transparent;
+//    transparent->position.set(0,0,0);
+//    addChild(transparent);
+    
     //lets add some titles, based on the number of title entries we have in the xml file!
     
     //lets add some titles into the top right (positive) quadrant
@@ -139,8 +150,11 @@ CirculationApp::CirculationApp() {
         // printf("%s\n", xml_Title.c_str());
         Title* newTitle = new Title(xml_Title);
         newTitle->positiveQuadrant = 0;
+        newTitle->bounded = 0;
         float posX = poRand(-300,0);
         float posY = poRand(0,300);
+        
+        float hypotenuse = sqrt((posX*posX) + (posY*posY));
         newTitle->position.set(posX, posY, 0);
         C->addChild(newTitle); //add titles to bottom left
     }
@@ -159,6 +173,10 @@ CirculationApp::CirculationApp() {
         float posX = poRand(0, 300);
         float posY = poRand(-300, 0);
         
+        
+        P->positiveQuadrant = 1;
+        P->bounded = 1;
+
         P->position.set(posX, posY, 0);
 		A->addChild(P);
 	}
@@ -169,11 +187,17 @@ CirculationApp::CirculationApp() {
         float posX = poRand(-300, 0);
         float posY = poRand(0, 300);
         P->positiveQuadrant = 0;
+        P->bounded =0;
+
         P->position.set(posX, posY, 0);
 		C->addChild(P);
 	}
     
-
+    poColor lavender;
+    lavender.set("#BF5FFF");
+    po::setColor(lavender);
+    
+  //  transparent->drawFilledRect(600,300,10,10);
     
 
 
@@ -207,9 +231,9 @@ void CirculationApp::update() {
     
     
     if(A->pointInside(poPoint(600,300), true) == true){
-        printf("true!");
+        printf("true!\n");
     }else
-        printf("false :(");
+        printf("false :(\n");
     
    
   //  cout << A->rotation << "\n";
@@ -246,7 +270,11 @@ void CirculationApp::update() {
 
 // DRAW. Called once per frame. Draw objects here.
 void CirculationApp::draw() {
-
+    
+    po::setColor(poColor(1.0, 0.0, 0.0));
+    //po::drawStrokedRect(150,150,100,100);
+    po::drawFilledRect(600,300,10,10);
+   
 }
 
 // EVENT HANDLER. Called when events happen. Respond to events here.
