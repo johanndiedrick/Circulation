@@ -22,7 +22,7 @@ video_playerApp::video_playerApp() {
     
     // start video capture
     // to access an external camera, add camera ID (e.g. "0xfa20000005ac850a") as second input
-	capture->startCapture(poPoint(320,240));    
+	capture->startCapture(poPoint(320,240), "0x7480301f015d4-video");    
 
     // make smImage to copy video imge into
     frameImage = new smImage(320,240);

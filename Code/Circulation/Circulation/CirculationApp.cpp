@@ -150,7 +150,7 @@ CirculationApp::CirculationApp() {
         // printf("%s\n", xml_Title.c_str());
         Title* newTitle = new Title(xml_Title);
         newTitle->positiveQuadrant = 0;
-        newTitle->bounded = 0;
+        newTitle->bounded = 1;
         float posX = poRand(-300,0);
         float posY = poRand(0,300);
         
@@ -272,9 +272,8 @@ void CirculationApp::update() {
 void CirculationApp::draw() {
     
     po::setColor(poColor(1.0, 0.0, 0.0));
-    //po::drawStrokedRect(150,150,100,100);
+    po::drawStrokedRect(150,150,100,100);
     po::drawFilledRect(600,300,10,10);
-   
 }
 
 // EVENT HANDLER. Called when events happen. Respond to events here.

@@ -8,8 +8,7 @@
 
 class poVideoCaptureImpl {
 public:
-	virtual void startCapture(poPoint size, const std::string &deviceID) = 0;
-	virtual void stopCapture() = 0;
+    virtual void stopCapture() = 0;
 	virtual bool isCapturing() = 0;
 	
 	virtual poPoint getSize() = 0;
@@ -164,7 +163,7 @@ poVideoCapture::~poVideoCapture() {
 
 void poVideoCapture::startCapture(poPoint size, const std::string &deviceID) {
     if(!impl->isCapturing())
-        impl->startCapture(size, deviceID);
+        impl->stopCapture(size, deviceID);
 }
 
 void poVideoCapture::stopCapture() {
