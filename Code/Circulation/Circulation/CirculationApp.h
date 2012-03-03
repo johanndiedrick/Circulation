@@ -4,6 +4,8 @@
 
 #include "poObject.h"
 #include "poShape2D.h"
+#include "Particle.h"
+#include "Title.h"
 
 
 class CirculationApp : public poObject {
@@ -24,6 +26,9 @@ public:
     poShape2D* C;
     poShape2D* D;
     poShape2D* transparent; 
+    
+    std::vector< Particle* >    alphabet;
+    std::vector< Title* >    titles;
     
     int rotationValue;
     int radius;

@@ -135,9 +135,13 @@ CirculationApp::CirculationApp() {
     std::string xml_Title = node_Title.getInnerString();
    // printf("%s\n", xml_Title.c_str());
         Title* newTitle = new Title(xml_Title);
+       newTitle->positiveQuadrant = 1;
+       newTitle->bounded = 1;
        float posX = poRand(0,300);
        float posY = poRand(-300,0);
        newTitle->position.set(posX, posY, 0);
+       titles.push_back(newTitle);
+
         A->addChild(newTitle); // add titles to upper right
 }
     
@@ -156,6 +160,7 @@ CirculationApp::CirculationApp() {
         
         float hypotenuse = sqrt((posX*posX) + (posY*posY));
         newTitle->position.set(posX, posY, 0);
+        titles.push_back(newTitle);
         C->addChild(newTitle); //add titles to bottom left
     }
 
@@ -178,6 +183,7 @@ CirculationApp::CirculationApp() {
         P->bounded = 1;
 
         P->position.set(posX, posY, 0);
+        alphabet.push_back(P);
 		A->addChild(P);
 	}
     
@@ -187,9 +193,10 @@ CirculationApp::CirculationApp() {
         float posX = poRand(-300, 0);
         float posY = poRand(0, 300);
         P->positiveQuadrant = 0;
-        P->bounded =0;
+        P->bounded =1;
 
         P->position.set(posX, posY, 0);
+         alphabet.push_back(P);
 		C->addChild(P);
 	}
     
@@ -210,6 +217,24 @@ CirculationApp::~CirculationApp() {
 // UPDATE. Called once per frame. Animate objects here.
 void CirculationApp::update() {
 
+    if(lastKeyDown=='k'){
+        for(int i=0; i<alphabet.size(); i++){
+            alphabet[i]->bounded=1;
+        }
+        for(int i=0; i<titles.size(); i++){
+            titles[i]->bounded=1;
+        }
+    }
+    
+    if(lastKeyDown=='l'){
+        for(int i=0; i<alphabet.size(); i++){
+            alphabet[i]->bounded=0;
+        }
+        for(int i=0; i<titles.size(); i++){
+            titles[i]->bounded=0;
+        }
+    }
+    
     //rotate circle
     if(lastKeyDown=='p'){
        // printf("Rotating Clockwise...\n");

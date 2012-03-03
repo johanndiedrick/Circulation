@@ -585,4 +585,6 @@ dependencies: \
   /pocode/libraries/pocode/include/poBinPacker.h \
   /Users/johanndiedrick/Documents/Tisch/Courses/Spatial\ Media/Assignments/Circulation/Code/Circulation/Circulation/CirculationApp.h \
   /pocode/libraries/pocode/include/poShape2D.h \
-  /pocode/libraries/pocode/include/poSimpleDrawing.h
+  /pocode/libraries/pocode/include/poSimpleDrawing.h \
+  /Users/johanndiedrick/Documents/Tisch/Courses/Spatial\ Media/Assignments/Circulation/Code/Circulation/Circulation/Particle.h \
+  /pocode/libraries/pocode/include/poShapeBasics2D.h

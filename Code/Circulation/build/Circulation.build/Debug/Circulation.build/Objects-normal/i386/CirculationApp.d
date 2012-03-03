@@ -578,6 +578,16 @@ dependencies: \
   /pocode/libraries/pocode/include/poShape2D.h \
   /pocode/libraries/pocode/include/poSimpleDrawing.h \
   /pocode/libraries/pocode/include/poTexture.h \
+  /Users/johanndiedrick/Documents/Tisch/Courses/Spatial\ Media/Assignments/Circulation/Code/Circulation/Circulation/Particle.h \
+  /pocode/libraries/pocode/include/poShapeBasics2D.h \
+  /pocode/libraries/pocode/include/poTextBox.h \
+  /pocode/libraries/pocode/include/poTextBoxLayout.h \
+  /pocode/libraries/pocode/include/poTextLayout.h \
+  /pocode/libraries/pocode/include/poAttributedString.h \
+  /pocode/libraries/pocode/include/poBitmapFont.h \
+  /pocode/libraries/pocode/include/poTextureAtlas.h \
+  /pocode/libraries/pocode/include/poBinPacker.h \
+  /Users/johanndiedrick/Documents/Tisch/Courses/Spatial\ Media/Assignments/Circulation/Code/Circulation/Circulation/Title.h \
   /pocode/libraries/pocode/include/poApplication.h \
   /pocode/libraries/pocode/include/poWindow.h \
   /pocode/libraries/Boost/boost_1_45_0/boost/signals2.hpp \
@@ -748,16 +758,6 @@ dependencies: \
   /pocode/libraries/Boost/boost_1_45_0/boost/preprocessor/detail/is_nullary.hpp \
   /pocode/libraries/Boost/boost_1_45_0/boost/signals2/shared_connection_block.hpp \
   /pocode/libraries/pocode/include/poCamera.h \
-  /pocode/libraries/pocode/include/poShapeBasics2D.h \
-  /pocode/libraries/pocode/include/poTextBox.h \
-  /pocode/libraries/pocode/include/poTextBoxLayout.h \
-  /pocode/libraries/pocode/include/poTextLayout.h \
-  /pocode/libraries/pocode/include/poAttributedString.h \
-  /pocode/libraries/pocode/include/poBitmapFont.h \
-  /pocode/libraries/pocode/include/poTextureAtlas.h \
-  /pocode/libraries/pocode/include/poBinPacker.h \
-  /Users/johanndiedrick/Documents/Tisch/Courses/Spatial\ Media/Assignments/Circulation/Code/Circulation/Circulation/Title.h \
-  /Users/johanndiedrick/Documents/Tisch/Courses/Spatial\ Media/Assignments/Circulation/Code/Circulation/Circulation/Particle.h \
   /pocode/libraries/Boost/boost_1_45_0/boost/format.hpp \
   /pocode/libraries/Boost/boost_1_45_0/boost/format/detail/compat_workarounds.hpp \
   /pocode/libraries/Boost/boost_1_45_0/boost/format/detail/config_macros.hpp \

@@ -746,4 +746,14 @@ dependencies: \
   /pocode/libraries/pocode/include/poObjectModifier.h \
   /pocode/libraries/pocode/include/poShape2D.h \
   /pocode/libraries/pocode/include/poSimpleDrawing.h \
-  /pocode/libraries/pocode/include/poTexture.h
+  /pocode/libraries/pocode/include/poTexture.h \
+  /Users/johanndiedrick/Documents/Tisch/Courses/Spatial\ Media/Assignments/Circulation/Code/Circulation/Circulation/Particle.h \
+  /pocode/libraries/pocode/include/poShapeBasics2D.h \
+  /pocode/libraries/pocode/include/poTextBox.h \
+  /pocode/libraries/pocode/include/poTextBoxLayout.h \
+  /pocode/libraries/pocode/include/poTextLayout.h \
+  /pocode/libraries/pocode/include/poAttributedString.h \
+  /pocode/libraries/pocode/include/poBitmapFont.h \
+  /pocode/libraries/pocode/include/poTextureAtlas.h \
+  /pocode/libraries/pocode/include/poBinPacker.h \
+  /Users/johanndiedrick/Documents/Tisch/Courses/Spatial\ Media/Assignments/Circulation/Code/Circulation/Circulation/Title.h
