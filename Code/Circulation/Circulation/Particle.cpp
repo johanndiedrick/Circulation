@@ -47,7 +47,7 @@ void Particle::draw()
     po::drawString( letter, poGetFont("Helvetica", "Regular") , poPoint(0,0), 12.0 ); 
     
    // po::setColor(poColor(1.0, 0.0, 0.0));
-    //po::drawStrokedRect(150,150,100,100); fun accident...
+   // po::drawStrokedRect(150,150,100,100); //fun accident...
     //po::drawFilledRect(600,300,10,10);
 }
 
@@ -79,7 +79,7 @@ void Particle::update() {
         //move radially
         position.x = position.x + position.x/(sqrt((position.x*position.x) + (position.y*position.y)));  
         position.y = position.y + position.y/(sqrt((position.x*position.x) + (position.y*position.y)));
-        
+       
     }
     
 	rotation += rotationSpeed;
